@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-11-28T12:57:48 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-11-28T12:57:48-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "b0f90c5c10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-11-28T12:57:48 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-11-28T12:57:48-08:00", 
+    "_body": "00", 
+    "_head": "3320", 
+    "rate": 0.8, 
+    "_date": "b0f90c5c10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-11-28T12:45:51 head[2], body[0] op[0x16]", 
     "timestamp": "2016-11-28T12:45:51-08:00", 
     "_body": "", 
@@ -680,24 +699,5 @@
     "_head": "5b7c", 
     "bolus_estimate": 0.9, 
     "_date": "8bc0071c10"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-11-28T06:56:48 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-11-28T06:56:48-08:00", 
-    "_body": "c23647", 
-    "_head": "3f0f", 
-    "amount": 124, 
-    "link": "c23647", 
-    "_date": "b0f8867c10"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-11-28T06:56:48 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-11-28T06:56:48-08:00", 
-    "_body": "", 
-    "_head": "0a7c", 
-    "amount": 124, 
-    "_date": "b0f8267c10"
   }
 ]
