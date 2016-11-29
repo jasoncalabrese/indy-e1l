@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-11-29T03:16:32.000Z", 
+      "timestamp": "2016-11-29T03:20:02.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 108.575, 
-    "clock": "2016-11-28T19:16:19-08:00"
+    "reservoir": 108.475, 
+    "clock": "2016-11-28T19:19:57-08:00"
   }, 
   "uploader": {
     "battery": 100, 
@@ -20,81 +20,81 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 145, 
+      "bg": 144, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
-      "timestamp": "2016-11-29T03:18:22.000Z", 
-      "reason": "COB: 0, Dev: 7, BGI: -1.2, ISF: 80, Target: 110; Eventual BG 127 >= 110, 28m@0.700 = 0.327 > req 0.21+20%. Setting temp basal of 1.05U/hr", 
-      "rate": 1.05, 
+      "snoozeBG": 117, 
+      "timestamp": "2016-11-29T03:22:23.000Z", 
+      "reason": "COB: 0, Dev: 1, BGI: -1.2, ISF: 80, Target: 110; Eventual BG 117 >= 110, 28m@0.400 = 0.187 > req 0.03+20%. Setting temp basal of 0.7U/hr", 
+      "rate": 0.7, 
       "COB": 0, 
-      "eventualBG": 127, 
+      "eventualBG": 117, 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 0.316
+      "tick": -1, 
+      "IOB": 0.355
     }, 
     "iob": {
-      "netbasalinsulin": 0.5, 
-      "timestamp": "2016-11-29T03:16:19.000Z", 
+      "netbasalinsulin": 0.6, 
+      "timestamp": "2016-11-29T03:19:57.000Z", 
       "activity": 0.003, 
-      "basaliob": 0.316, 
-      "hightempinsulin": 1.05, 
+      "basaliob": 0.355, 
+      "hightempinsulin": 1.1, 
       "bolussnooze": 0, 
-      "iob": 0.316
+      "iob": 0.355
     }, 
     "enacted": {
-      "bg": 145, 
+      "bg": 144, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
+      "snoozeBG": 117, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          145, 
-          145, 
-          145, 
-          144, 
           144, 
           143, 
           142, 
           141, 
           140, 
-          139, 
+          138, 
           137, 
           136, 
           134, 
-          132, 
+          133, 
           131, 
+          130, 
           129, 
           127, 
-          125, 
+          126, 
+          124, 
           123, 
           121, 
           120, 
           118, 
+          117, 
           116, 
           115, 
           113, 
           112, 
+          112, 
           111, 
           110, 
+          110, 
+          109, 
           109, 
           108, 
           108, 
-          107, 
-          106, 
-          106, 
-          106, 
-          106, 
-          105
+          108, 
+          108, 
+          108, 
+          107
         ]
       }, 
-      "rate": 1.05, 
-      "reason": "COB: 0, Dev: 7, BGI: -1.2, ISF: 80, Target: 110; Eventual BG 127 >= 110, 28m@0.700 = 0.327 > req 0.21+20%. Setting temp basal of 1.05U/hr", 
+      "rate": 0.675, 
+      "reason": "COB: 0, Dev: 1, BGI: -1.2, ISF: 80, Target: 110; Eventual BG 117 >= 110, 28m@0.400 = 0.187 > req 0.03+20%. Setting temp basal of 0.7U/hr", 
       "COB": 0, 
-      "eventualBG": 127, 
-      "timestamp": "2016-11-29T03:18:43.000Z", 
+      "eventualBG": 117, 
+      "timestamp": "2016-11-29T03:22:36.000Z", 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 0.316
+      "tick": -1, 
+      "IOB": 0.355
     }
   }, 
   "mmtune": {
@@ -102,41 +102,41 @@
       [
         "916.540", 
         5, 
-        -94
+        -93
       ], 
       [
         "916.564", 
         5, 
-        -86
+        -84
       ], 
       [
         "916.588", 
         5, 
-        -85
+        -81
       ], 
       [
         "916.612", 
         5, 
-        -86
+        -78
       ], 
       [
         "916.636", 
         5, 
-        -91
+        -76
       ], 
       [
         "916.660", 
         5, 
-        -93
+        -78
       ], 
       [
         "916.684", 
         5, 
-        -94
+        -81
       ]
     ], 
-    "setFreq": 916.588, 
-    "timestamp": "2016-11-29T03:16:11.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-11-29T03:19:50.000Z", 
     "usedDefault": false
   }
 }
