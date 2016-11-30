@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2016-11-30T16:15:27.858Z", 
+    "created_at": "2016-11-30T16:21:29.785Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -26,12 +26,12 @@
         [
           "916.636", 
           5, 
-          -42
+          -43
         ], 
         [
           "916.660", 
           5, 
-          -43
+          -44
         ], 
         [
           "916.684", 
@@ -41,7 +41,7 @@
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-11-30T16:12:52.000Z"
+      "timestamp": "2016-11-30T16:19:01.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,76 +50,74 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-30T16:13:14.000Z", 
+        "timestamp": "2016-11-30T16:19:25.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 60.65, 
-      "clock": "2016-11-30T08:13:10-08:00"
+      "reservoir": 60.3, 
+      "clock": "2016-11-30T08:19:22-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 231, 
+        "bg": 241, 
         "temp": "absolute", 
-        "snoozeBG": 236, 
-        "timestamp": "2016-11-30T16:15:12.000Z", 
+        "snoozeBG": 220, 
+        "timestamp": "2016-11-30T16:21:14.000Z", 
         "predBGs": {
           "IOB": [
-            231, 
             241, 
-            249, 
-            255, 
-            261, 
-            264, 
-            266, 
-            266, 
-            265, 
-            262, 
-            257, 
             250, 
-            242, 
-            234, 
-            226, 
-            218, 
-            210, 
-            202, 
-            194, 
-            187, 
-            180, 
+            257, 
+            262, 
+            267, 
+            269, 
+            271, 
+            270, 
+            268, 
+            265, 
+            260, 
+            253, 
+            245, 
+            236, 
+            228, 
+            220, 
+            212, 
+            205, 
+            197, 
+            191, 
+            184, 
+            179, 
             173, 
             168, 
-            162, 
-            157, 
+            164, 
+            160, 
+            156, 
             152, 
-            148, 
+            149, 
+            146, 
             144, 
-            141, 
+            142, 
+            140, 
+            139, 
+            138, 
             137, 
-            134, 
-            132, 
-            130, 
-            128, 
-            126, 
-            125, 
-            124, 
-            124, 
-            123
+            136
           ]
         }, 
-        "reason": "COB: 0, Dev: 117, BGI: -8.16, ISF: 78, Target: 109; Eventual BG 230 >= 109, adj. req. rate: 3.7 to maxSafeBasal: 3.25, temp 3.1<3.25U/hr, but 27m left and 3.1 ~ req 3.25U/hr: no action required", 
+        "reason": "COB: 0, Dev: 108, BGI: -8.08, ISF: 78, Target: 109; Eventual BG 218 >= 109, adj. req. rate: 3.4 to maxSafeBasal: 3.25, temp 3.1<3.25U/hr, but 21m left and 3.1 ~ req 3.25U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 230, 
-        "tick": "+17", 
-        "IOB": 1.515
+        "eventualBG": 218, 
+        "tick": "+10", 
+        "IOB": 1.685
       }, 
       "iob": {
-        "netbasalinsulin": 1.9, 
-        "timestamp": "2016-11-30T16:13:10.000Z", 
-        "activity": 0.021, 
-        "basaliob": 0.99, 
-        "hightempinsulin": 1.9, 
-        "bolussnooze": 0.05, 
-        "iob": 1.515
+        "netbasalinsulin": 2.2, 
+        "timestamp": "2016-11-30T16:19:22.000Z", 
+        "activity": 0.0208, 
+        "basaliob": 1.221, 
+        "hightempinsulin": 2.2, 
+        "bolussnooze": 0.019, 
+        "iob": 1.685
       }, 
       "enacted": {
         "bg": 214, 
@@ -137,10 +135,10 @@
       }
     }, 
     "uploader": {
-      "battery": 84, 
-      "batteryVoltage": 4020
+      "battery": 83, 
+      "batteryVoltage": 4007
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "583efb1fba77740172226a68"
+    "_id": "583efc89ba77740172226a69"
   }
 ]
