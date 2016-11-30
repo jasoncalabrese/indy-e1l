@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-11-30T17:36:40.232Z", 
+    "created_at": "2016-11-30T17:44:42.104Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
           5, 
-          -52
+          -61
         ], 
         [
           "916.564", 
           5, 
-          -49
+          -56
         ], 
         [
           "916.588", 
           5, 
-          -48
+          -56
         ], 
         [
           "916.612", 
           5, 
-          -48
+          -56
         ], 
         [
           "916.636", 
           5, 
-          -48
+          -57
         ], 
         [
           "916.660", 
           5, 
-          -50
+          -58
         ], 
         [
           "916.684", 
-          3, 
-          -75
+          5, 
+          -71
         ]
       ], 
-      "setFreq": 916.636, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2016-11-30T17:34:14.000Z"
+      "timestamp": "2016-11-30T17:42:16.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,75 +50,68 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-30T17:34:34.000Z", 
+        "timestamp": "2016-11-30T17:42:37.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 117.1, 
-      "clock": "2016-11-30T09:34:31-08:00"
+      "clock": "2016-11-30T09:42:33-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 172, 
+        "bg": 158, 
         "temp": "absolute", 
-        "snoozeBG": 101, 
-        "timestamp": "2016-11-30T17:36:24.000Z", 
+        "snoozeBG": 107, 
+        "timestamp": "2016-11-30T17:44:26.000Z", 
         "predBGs": {
           "IOB": [
-            172, 
-            162, 
-            153, 
-            144, 
+            158, 
+            150, 
+            142, 
             136, 
-            129, 
-            122, 
-            116, 
-            111, 
-            106, 
-            102, 
+            130, 
+            124, 
+            119, 
+            115, 
+            110, 
+            107, 
+            104, 
+            101, 
             99, 
+            97, 
             96, 
-            93, 
-            91, 
-            89, 
-            88, 
-            88, 
-            87, 
-            87, 
-            87, 
-            88, 
-            88, 
-            89, 
-            90, 
-            91, 
-            91, 
-            92, 
-            92, 
-            93, 
-            93, 
+            95, 
             94, 
             94, 
             94, 
             94, 
-            94, 
-            94, 
-            95
+            95, 
+            96, 
+            97, 
+            97, 
+            98, 
+            98, 
+            99, 
+            100, 
+            100, 
+            100, 
+            101
           ]
         }, 
-        "reason": "COB: 0, Dev: -6, BGI: -8.99, ISF: 76, Target: 108; Eventual BG 91 < 108, temp 0 ~< req 0.2U/hr", 
+        "reason": "COB: 0, Dev: 2, BGI: -8.46, ISF: 76, Target: 108; Eventual BG 103 < 108, temp 0 ~< req 0.525U/hr", 
         "COB": 0, 
-        "eventualBG": 91, 
-        "tick": -7, 
-        "IOB": 0.983
+        "eventualBG": 103, 
+        "tick": -6, 
+        "IOB": 0.752
       }, 
       "iob": {
-        "netbasalinsulin": 1.45, 
-        "timestamp": "2016-11-30T17:34:31.000Z", 
-        "activity": 0.0236, 
-        "basaliob": 0.327, 
-        "hightempinsulin": 1.8, 
-        "bolussnooze": 0.089, 
-        "iob": 0.983
+        "netbasalinsulin": 1.25, 
+        "timestamp": "2016-11-30T17:42:33.000Z", 
+        "activity": 0.0222, 
+        "basaliob": 0.198, 
+        "hightempinsulin": 1.65, 
+        "bolussnooze": 0.033, 
+        "iob": 0.752
       }, 
       "enacted": {
         "bg": 188, 
@@ -137,9 +130,9 @@
     }, 
     "uploader": {
       "battery": 76, 
-      "batteryVoltage": 3941
+      "batteryVoltage": 3936
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "583f0e28ba77740172226a75"
+    "_id": "583f100aba77740172226a76"
   }
 ]
