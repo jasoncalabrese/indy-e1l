@@ -1,7 +1,7 @@
 {
   "bg": 109, 
   "temp": "absolute", 
-  "snoozeBG": 103, 
+  "snoozeBG": 104, 
   "predBGs": {
     "IOB": [
       109, 
@@ -15,19 +15,26 @@
       103, 
       102, 
       102, 
+      102, 
       101, 
       101, 
-      101, 
-      101, 
-      101, 
-      101, 
-      101, 
+      102, 
+      102, 
+      102, 
+      102, 
+      102, 
+      102, 
+      102, 
+      103, 
+      103, 
       102
     ]
   }, 
-  "reason": "COB: 0, Dev: 4, BGI: -1.71, ISF: 68, Target: 103; Eventual BG 103 >= 103, 21m@0.025 = 0.009 > req 0+20%. Setting temp basal of 0.75U/hr, but 21m left and 0.775 ~ req 0.75U/hr: no action required", 
+  "rate": 0.75, 
+  "reason": "COB: 0, Dev: 3, BGI: -1.54, ISF: 68, Target: 103; Eventual BG 104 >= 103, 16m@0.025 = 0.007 > req 0+20%. Setting temp basal of 0.75U/hr", 
   "COB": 0, 
-  "eventualBG": 103, 
+  "eventualBG": 104, 
+  "duration": 30, 
   "tick": -1, 
-  "IOB": 0.141
+  "IOB": 0.117
 }
