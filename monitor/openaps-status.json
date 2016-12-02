@@ -7,26 +7,25 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-02T14:02:34.000Z", 
+      "timestamp": "2016-12-02T14:09:09.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 63.75, 
-    "clock": "2016-12-02T06:02:14-08:00"
+    "reservoir": 63.6, 
+    "clock": "2016-12-02T06:09:06-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4376
+    "batteryVoltage": 4378
   }, 
   "openaps": {
     "suggested": {
-      "bg": 132, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 152, 
-      "timestamp": "2016-12-02T14:04:16.000Z", 
+      "snoozeBG": 144, 
+      "timestamp": "2016-12-02T14:11:13.000Z", 
       "predBGs": {
         "IOB": [
-          132, 
           137, 
           142, 
           146, 
@@ -52,32 +51,32 @@
           137, 
           135, 
           133, 
+          132, 
           131, 
-          130, 
           129, 
           128, 
+          127, 
           126, 
           126, 
           125, 
-          124, 
-          124, 
-          123
+          125, 
+          124
         ]
       }, 
-      "reason": "COB: 0, Dev: 22, BGI: 1.94, ISF: 83, Target: 112; Eventual BG 152 >= 112, temp 1.35<1.45U/hr, but 25m left and 1.35 ~ req 1.45U/hr: no action required", 
+      "reason": "COB: 0, Dev: 20, BGI: 1.71, ISF: 82, Target: 111; Eventual BG 144 >= 111, temp 1.35 >~ req 1.3U/hr", 
       "COB": 0, 
-      "eventualBG": 152, 
-      "tick": "+6", 
-      "IOB": 0.028
+      "eventualBG": 144, 
+      "tick": "+5", 
+      "IOB": 0.158
     }, 
     "iob": {
-      "netbasalinsulin": -0.3, 
-      "timestamp": "2016-12-02T14:02:14.000Z", 
-      "activity": -0.0047, 
-      "basaliob": 0.028, 
-      "hightempinsulin": 0.3, 
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2016-12-02T14:09:06.000Z", 
+      "activity": -0.0042, 
+      "basaliob": 0.158, 
+      "hightempinsulin": 0.4, 
       "bolussnooze": 0, 
-      "iob": 0.028
+      "iob": 0.158
     }, 
     "enacted": {
       "bg": 126, 
@@ -104,12 +103,12 @@
       [
         "916.588", 
         5, 
-        -83
+        -84
       ], 
       [
         "916.612", 
         5, 
-        -82
+        -83
       ], 
       [
         "916.636", 
@@ -124,16 +123,16 @@
       [
         "916.684", 
         5, 
-        -85
+        -84
       ], 
       [
         "916.708", 
         5, 
-        -94
+        -93
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-12-02T14:01:56.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-12-02T14:08:45.000Z", 
     "usedDefault": false
   }
 }
