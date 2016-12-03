@@ -1,5 +1,22 @@
 [
   {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-12-03T02:19:59-08:00", 
+    "noise": 1, 
+    "system_time": "2016-12-03T09:12:40-08:00", 
+    "direction": "Flat", 
+    "sgv": 152, 
+    "dateString": "2016-12-03T02:19:59-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 178944, 
+    "rssi": 188, 
+    "date": 1480760399000, 
+    "filtered": 183104, 
+    "_id": "58429cbd65110bbfc194cbab", 
+    "type": "sgv", 
+    "glucose": 152
+  }, 
+  {
     "trend_arrow": "45_DOWN", 
     "display_time": "2016-12-03T02:14:59-08:00", 
     "noise": 1, 
@@ -24,11 +41,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 159, 
     "dateString": "2016-12-03T02:10:00-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 184960, 
-    "rssi": 183, 
     "date": 1480759800000, 
+    "unfiltered": 184960, 
     "filtered": 194048, 
+    "device": "openaps://indy-e1/cgm", 
+    "rssi": 183, 
     "_id": "58429a8265110bbfc194cba9", 
     "type": "sgv", 
     "glucose": 159
@@ -92,11 +109,11 @@
     "direction": "FortyFiveDown", 
     "sgv": 194, 
     "dateString": "2016-12-03T01:49:59-08:00", 
-    "date": 1480758599000, 
-    "unfiltered": 215840, 
-    "filtered": 229216, 
     "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 215840, 
     "rssi": 199, 
+    "date": 1480758599000, 
+    "filtered": 229216, 
     "_id": "5842959565110bbfc194cba2", 
     "type": "sgv", 
     "glucose": 194
@@ -1188,22 +1205,5 @@
     "_id": "58424ab965110bbfc194cb2c", 
     "type": "sgv", 
     "glucose": 90
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-12-02T20:25:00-08:00", 
-    "noise": 1, 
-    "system_time": "2016-12-03T03:17:41-08:00", 
-    "direction": "Flat", 
-    "sgv": 89, 
-    "dateString": "2016-12-02T20:25:00-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 123408, 
-    "rssi": 209, 
-    "date": 1480739100000, 
-    "filtered": 128896, 
-    "_id": "584249ca65110bbfc194cb2a", 
-    "type": "sgv", 
-    "glucose": 89
   }
 ]
