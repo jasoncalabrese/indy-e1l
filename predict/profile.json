@@ -1,7 +1,7 @@
 {
   "min_bg": 100, 
   "max_iob": 3, 
-  "max_daily_basal": 1.05, 
+  "max_daily_basal": 0.9750000000000001, 
   "isfProfile": {
     "units": "mg/dL", 
     "sensitivities": [
@@ -24,43 +24,43 @@
     {
       "i": 0, 
       "start": "00:00:00", 
-      "rate": 0.925, 
+      "rate": 0.9, 
       "minutes": 0
     }, 
     {
       "i": 1, 
       "start": "01:00:00", 
-      "rate": 0.8250000000000001, 
+      "rate": 0.8, 
       "minutes": 60
     }, 
     {
       "i": 2, 
       "start": "02:00:00", 
-      "rate": 0.65, 
+      "rate": 0.6000000000000001, 
       "minutes": 120
     }, 
     {
       "i": 3, 
       "start": "03:30:00", 
-      "rate": 0.525, 
+      "rate": 0.5, 
       "minutes": 210
     }, 
     {
       "i": 4, 
       "start": "07:00:00", 
-      "rate": 0.6000000000000001, 
+      "rate": 0.55, 
       "minutes": 420
     }, 
     {
       "i": 5, 
       "start": "10:00:00", 
-      "rate": 0.65, 
+      "rate": 0.6000000000000001, 
       "minutes": 600
     }, 
     {
       "i": 6, 
       "start": "14:00:00", 
-      "rate": 0.65, 
+      "rate": 0.6000000000000001, 
       "minutes": 840
     }, 
     {
@@ -72,13 +72,13 @@
     {
       "i": 8, 
       "start": "19:30:00", 
-      "rate": 0.875, 
+      "rate": 0.8250000000000001, 
       "minutes": 1170
     }, 
     {
       "i": 9, 
       "start": "21:00:00", 
-      "rate": 1.05, 
+      "rate": 0.9750000000000001, 
       "minutes": 1260
     }
   ], 
@@ -86,13 +86,13 @@
   "autosens_min": 0.9, 
   "max_daily_safety_multiplier": 5, 
   "min_5m_carbimpact": 4, 
-  "current_basal": 0.65, 
+  "current_basal": 0.6, 
   "max_basal": 3.25, 
   "type": "current", 
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 10.799999999999999, 
+  "carb_ratio": 12, 
   "model": "723", 
   "autosens_max": 1.5
 }
