@@ -1,6 +1,38 @@
 [
   {
     "trend_arrow": "SINGLE_DOWN", 
+    "display_time": "2016-12-06T12:39:54-08:00", 
+    "noise": 1, 
+    "direction": "SingleDown", 
+    "system_time": "2016-12-06T20:26:44-08:00", 
+    "sgv": 47, 
+    "dateString": "2016-12-06T12:39:54-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 84800, 
+    "rssi": 180, 
+    "date": 1481056794000.0, 
+    "filtered": 96256, 
+    "type": "sgv", 
+    "glucose": 47
+  }, 
+  {
+    "trend_arrow": "SINGLE_DOWN", 
+    "display_time": "2016-12-06T12:34:54-08:00", 
+    "noise": 1, 
+    "direction": "SingleDown", 
+    "system_time": "2016-12-06T20:21:44-08:00", 
+    "sgv": 52, 
+    "dateString": "2016-12-06T12:34:54-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 89360, 
+    "rssi": 193, 
+    "date": 1481056494000.0, 
+    "filtered": 107584, 
+    "type": "sgv", 
+    "glucose": 52
+  }, 
+  {
+    "trend_arrow": "SINGLE_DOWN", 
     "display_time": "2016-12-06T12:29:55-08:00", 
     "noise": 1, 
     "direction": "SingleDown", 
@@ -62,37 +94,5 @@
     "filtered": 155520, 
     "type": "sgv", 
     "glucose": 103
-  }, 
-  {
-    "trend_arrow": "SINGLE_DOWN", 
-    "display_time": "2016-12-06T12:09:54-08:00", 
-    "noise": 1, 
-    "direction": "SingleDown", 
-    "system_time": "2016-12-06T19:56:44-08:00", 
-    "sgv": 115, 
-    "dateString": "2016-12-06T12:09:54-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 149408, 
-    "rssi": 182, 
-    "date": 1481054994000.0, 
-    "filtered": 165824, 
-    "type": "sgv", 
-    "glucose": 115
-  }, 
-  {
-    "trend_arrow": "45_DOWN", 
-    "display_time": "2016-12-06T12:04:54-08:00", 
-    "noise": 1, 
-    "direction": "FortyFiveDown", 
-    "system_time": "2016-12-06T19:51:45-08:00", 
-    "sgv": 127, 
-    "dateString": "2016-12-06T12:04:54-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 160480, 
-    "rssi": 188, 
-    "date": 1481054694000.0, 
-    "filtered": 174720, 
-    "type": "sgv", 
-    "glucose": 127
   }
 ]
