@@ -7,98 +7,97 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-09T19:29:33.000Z", 
+      "timestamp": "2016-12-09T19:35:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 102.875, 
-    "clock": "2016-12-09T11:29:34-08:00"
+    "reservoir": 102.675, 
+    "clock": "2016-12-09T11:35:31-08:00"
   }, 
   "uploader": {
     "battery": 67, 
-    "batteryVoltage": 3854
+    "batteryVoltage": 3852
   }, 
   "openaps": {
     "suggested": {
-      "bg": 159, 
+      "bg": 167, 
       "temp": "absolute", 
-      "snoozeBG": 143, 
-      "timestamp": "2016-12-09T19:31:20.000Z", 
+      "snoozeBG": 130, 
+      "timestamp": "2016-12-09T19:37:30.000Z", 
+      "reason": "COB: 0, Dev: 25, BGI: -0.15, ISF: 100, Target: 110; Eventual BG 128 >= 110, temp 1.7<0.9U/hr", 
+      "rate": 0.9, 
+      "COB": 0, 
+      "eventualBG": 128, 
+      "duration": 30, 
+      "tick": "+4", 
+      "IOB": 0.643
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.2, 
+      "timestamp": "2016-12-09T19:35:31.000Z", 
+      "activity": 0.0003, 
+      "basaliob": 0.409, 
+      "hightempinsulin": 0.75, 
+      "bolussnooze": 0.01, 
+      "iob": 0.643
+    }, 
+    "enacted": {
+      "bg": 167, 
+      "temp": "absolute", 
+      "snoozeBG": 130, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          159, 
-          165, 
-          169, 
-          173, 
+          167, 
+          171, 
+          174, 
           176, 
           178, 
-          180, 
-          180, 
-          180, 
+          178, 
           179, 
+          178, 
           177, 
-          174, 
-          171, 
-          167, 
-          163, 
-          160, 
-          156, 
-          153, 
-          150, 
-          147, 
-          144, 
-          142, 
+          175, 
+          172, 
+          169, 
+          166, 
+          162, 
+          159, 
+          155, 
+          152, 
+          149, 
+          146, 
+          143, 
+          141, 
           139, 
           137, 
-          136, 
-          134, 
+          135, 
+          133, 
           132, 
-          131, 
           130, 
           129, 
           128, 
-          127, 
-          127, 
+          128, 
           127, 
           126
         ]
       }, 
-      "reason": "COB: 0, Dev: 34, BGI: 0.3, ISF: 100, Target: 110; Eventual BG 139 >= 110, temp 1.7 >~ req 1.15U/hr", 
+      "rate": 0.9, 
+      "reason": "COB: 0, Dev: 25, BGI: -0.15, ISF: 100, Target: 110; Eventual BG 128 >= 110, temp 1.7<0.9U/hr", 
       "COB": 0, 
-      "eventualBG": 139, 
-      "tick": "+6", 
-      "IOB": 0.545
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.3, 
-      "timestamp": "2016-12-09T19:29:34.000Z", 
-      "activity": -0.0006, 
-      "basaliob": 0.282, 
-      "hightempinsulin": 0.65, 
-      "bolussnooze": 0.025, 
-      "iob": 0.545
-    }, 
-    "enacted": {
-      "bg": 131, 
-      "temp": "absolute", 
-      "snoozeBG": 191, 
-      "recieved": true, 
-      "rate": 1.7, 
-      "reason": "COB: 5, Dev: 40, BGI: 1.8, ISF: 100, Target: 110; Eventual BG 167 >= 110, temp 1.175<1.7U/hr", 
-      "COB": 5, 
-      "eventualBG": 167, 
-      "timestamp": "2016-12-09T19:06:57.000Z", 
+      "eventualBG": 128, 
+      "timestamp": "2016-12-09T19:37:54.000Z", 
       "duration": 30, 
-      "tick": "+9", 
-      "IOB": 0.042
+      "tick": "+4", 
+      "IOB": 0.643
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        1, 
-        -91
+        5, 
+        -54
       ], 
       [
         "916.564", 
@@ -113,26 +112,26 @@
       [
         "916.612", 
         5, 
-        -45
+        -46
       ], 
       [
         "916.636", 
         5, 
-        -45
+        -48
       ], 
       [
         "916.660", 
-        5, 
-        -45
+        4, 
+        -59
       ], 
       [
         "916.684", 
         5, 
-        -48
+        -54
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-12-09T19:29:13.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2016-12-09T19:35:10.000Z", 
     "usedDefault": false
   }
 }
