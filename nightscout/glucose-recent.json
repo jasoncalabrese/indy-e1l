@@ -1,6 +1,23 @@
 [
   {
     "trend_arrow": "FLAT", 
+    "display_time": "2016-12-09T05:49:50-08:00", 
+    "noise": 1, 
+    "system_time": "2016-12-09T13:49:17-08:00", 
+    "direction": "Flat", 
+    "sgv": 134, 
+    "dateString": "2016-12-09T05:49:50-08:00", 
+    "device": "openaps://indy-e3/cgm", 
+    "unfiltered": 155584, 
+    "rssi": 182, 
+    "date": 1481291390000, 
+    "filtered": 154688, 
+    "_id": "584ab6cb65110bbfc194dac0", 
+    "type": "sgv", 
+    "glucose": 134
+  }, 
+  {
+    "trend_arrow": "FLAT", 
     "display_time": "2016-12-09T05:44:50-08:00", 
     "noise": 1, 
     "system_time": "2016-12-09T13:44:17-08:00", 
@@ -13,6 +30,23 @@
     "date": 1481291090000, 
     "filtered": 152096, 
     "_id": "584ab58a65110bbfc194dabe", 
+    "type": "sgv", 
+    "glucose": 128
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-12-09T05:44:43-08:00", 
+    "noise": 1, 
+    "system_time": "2016-12-09T13:31:34-08:00", 
+    "direction": "Flat", 
+    "sgv": 128, 
+    "dateString": "2016-12-09T05:44:43-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 150208, 
+    "rssi": 188, 
+    "date": 1481291083000, 
+    "filtered": 152096, 
+    "_id": "584ab61465110bbfc194dabf", 
     "type": "sgv", 
     "glucose": 128
   }, 
@@ -2395,39 +2429,5 @@
     "_id": "584a63f265110bbfc194da07", 
     "type": "sgv", 
     "glucose": 144
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-12-08T23:49:51-08:00", 
-    "noise": 1, 
-    "system_time": "2016-12-09T07:49:17-08:00", 
-    "direction": "Flat", 
-    "sgv": 143, 
-    "dateString": "2016-12-08T23:49:51-08:00", 
-    "device": "openaps://indy-e3/cgm", 
-    "unfiltered": 163648, 
-    "rssi": 183, 
-    "date": 1481269791000, 
-    "filtered": 162144, 
-    "_id": "584a628065110bbfc194da02", 
-    "type": "sgv", 
-    "glucose": 143
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "display_time": "2016-12-08T23:49:44-08:00", 
-    "noise": 1, 
-    "system_time": "2016-12-09T07:36:35-08:00", 
-    "direction": "Flat", 
-    "sgv": 143, 
-    "dateString": "2016-12-08T23:49:44-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 163648, 
-    "rssi": 183, 
-    "date": 1481269784000, 
-    "filtered": 162144, 
-    "_id": "584a629465110bbfc194da03", 
-    "type": "sgv", 
-    "glucose": 143
   }
 ]
