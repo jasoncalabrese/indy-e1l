@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-12-09T07:33:49 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-12-09T07:33:49", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "f121074910"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-12-09T07:33:49 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-12-09T07:33:49", 
+    "_body": "00", 
+    "_head": "3314", 
+    "rate": 0.5, 
+    "_date": "f121074910"
+  }, 
+  {
     "_type": "Battery", 
     "_description": "Battery 2016-12-09T07:16:59 head[2], body[0] op[0x1a]", 
     "timestamp": "2016-12-09T07:16:59", 
@@ -881,24 +900,5 @@
     "_head": "3316", 
     "rate": 0.55, 
     "_date": "de22014910"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-12-09T01:21:46 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-12-09T01:21:46", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "ee15014910"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-12-09T01:21:46 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-12-09T01:21:46", 
-    "_body": "00", 
-    "_head": "3320", 
-    "rate": 0.8, 
-    "_date": "ee15014910"
   }
 ]
