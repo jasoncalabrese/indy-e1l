@@ -1,27 +1,32 @@
 [
   {
-    "created_at": "2016-12-10T01:51:00.557Z", 
+    "created_at": "2016-12-10T01:54:20.838Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.540", 
+          5, 
+          -80
+        ], 
+        [
           "916.564", 
           5, 
-          -78
+          -70
         ], 
         [
           "916.588", 
           5, 
-          -77
+          -65
         ], 
         [
           "916.612", 
-          4, 
-          -76
+          5, 
+          -64
         ], 
         [
           "916.636", 
-          4, 
-          -74
+          5, 
+          -63
         ], 
         [
           "916.660", 
@@ -31,12 +36,12 @@
         [
           "916.684", 
           5, 
-          -72
+          -70
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-12-10T01:48:55.000Z"
+      "timestamp": "2016-12-10T01:52:03.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,26 +50,70 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-10T01:49:15.000Z", 
+        "timestamp": "2016-12-10T01:52:24.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 97.775, 
-      "clock": "2016-12-09T17:49:16-08:00"
+      "reservoir": 97.725, 
+      "clock": "2016-12-09T17:52:24-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2016-12-10T01:50:44.000Z", 
-        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Dec 09 2016 17:39:41 GMT-0800 (PST) but your system time is Fri Dec 09 2016 17:50:44 GMT-0800 (PST)"
+        "bg": 92, 
+        "temp": "absolute", 
+        "snoozeBG": 118, 
+        "timestamp": "2016-12-10T01:54:05.000Z", 
+        "predBGs": {
+          "IOB": [
+            92, 
+            93, 
+            94, 
+            95, 
+            97, 
+            98, 
+            100, 
+            101, 
+            103, 
+            104, 
+            106, 
+            107, 
+            108, 
+            109, 
+            110, 
+            111, 
+            111, 
+            112, 
+            112, 
+            113, 
+            113, 
+            113, 
+            113, 
+            113, 
+            113, 
+            113, 
+            113, 
+            113, 
+            112, 
+            112, 
+            112, 
+            112, 
+            111
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 3, BGI: 0.43, ISF: 96, Target: 108; Eventual BG 118 >= 108, temp 1 >~ req 0.775U/hr", 
+        "COB": 0, 
+        "eventualBG": 118, 
+        "tick": "+1", 
+        "IOB": -0.259
       }, 
       "iob": {
-        "netbasalinsulin": -0.7, 
-        "timestamp": "2016-12-10T01:49:16.000Z", 
-        "activity": -0.0006, 
-        "basaliob": -0.301, 
+        "netbasalinsulin": -0.65, 
+        "timestamp": "2016-12-10T01:52:24.000Z", 
+        "activity": -0.0009, 
+        "basaliob": -0.291, 
         "hightempinsulin": 0.45, 
         "bolussnooze": 0, 
-        "iob": -0.263
+        "iob": -0.259
       }, 
       "enacted": {
         "bg": 80, 
@@ -83,9 +132,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4369
+      "batteryVoltage": 4368
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584b5f84ec3d583b4cd1a7a5"
+    "_id": "584b604cec3d583b4cd1a7a6"
   }
 ]
