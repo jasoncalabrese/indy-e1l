@@ -1,47 +1,11 @@
 [
   {
-    "created_at": "2016-12-10T23:35:45.619Z", 
+    "created_at": "2016-12-10T23:41:27.831Z", 
     "mmtune": {
-      "scanDetails": [
-        [
-          "916.540", 
-          5, 
-          -89
-        ], 
-        [
-          "916.564", 
-          5, 
-          -80
-        ], 
-        [
-          "916.588", 
-          5, 
-          -79
-        ], 
-        [
-          "916.612", 
-          5, 
-          -79
-        ], 
-        [
-          "916.636", 
-          5, 
-          -79
-        ], 
-        [
-          "916.660", 
-          5, 
-          -80
-        ], 
-        [
-          "916.684", 
-          5, 
-          -83
-        ]
-      ], 
-      "setFreq": 916.636, 
-      "usedDefault": false, 
-      "timestamp": "2016-12-10T23:33:12.000Z"
+      "scanDetails": [], 
+      "setFreq": 916.63, 
+      "usedDefault": true, 
+      "timestamp": "2016-12-10T23:38:58.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,33 +14,33 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-10T23:33:33.000Z", 
+        "timestamp": "2016-12-10T23:39:19.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 75.75, 
-      "clock": "2016-12-10T15:33:34-08:00"
+      "reservoir": 75.675, 
+      "clock": "2016-12-10T15:39:20-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2016-12-10T23:35:30.000Z", 
+        "timestamp": "2016-12-10T23:41:12.000Z", 
         "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 0.55U/hr"
       }, 
       "iob": {
         "netbasalinsulin": 0.8, 
-        "timestamp": "2016-12-10T23:33:34.000Z", 
-        "activity": 0.0087, 
-        "basaliob": 0.046, 
+        "timestamp": "2016-12-10T23:39:20.000Z", 
+        "activity": 0.008, 
+        "basaliob": 0.032, 
         "hightempinsulin": 0.8, 
-        "bolussnooze": 0.955, 
-        "iob": 1.182
+        "bolussnooze": 0.843, 
+        "iob": 1.135
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4372
+      "batteryVoltage": 4368
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584c9151ec3d583b4cd1a92b"
+    "_id": "584c92a7ec3d583b4cd1a92c"
   }
 ]
