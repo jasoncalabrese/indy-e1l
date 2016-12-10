@@ -3,34 +3,34 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.58
+      "voltage": 1.6
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-10T22:50:26.000Z", 
+      "timestamp": "2016-12-10T23:06:25.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 77.375, 
-    "clock": "2016-12-10T14:50:27-08:00"
+    "reservoir": 76.6, 
+    "clock": "2016-12-10T15:06:26-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4375
+    "batteryVoltage": 4369
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-12-10T22:52:33.000Z", 
+      "timestamp": "2016-12-10T23:08:19.000Z", 
       "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 0.55U/hr"
     }, 
     "iob": {
-      "netbasalinsulin": 0.8, 
-      "timestamp": "2016-12-10T22:50:27.000Z", 
-      "activity": 0.022, 
-      "basaliob": 0.241, 
+      "netbasalinsulin": 0.85, 
+      "timestamp": "2016-12-10T23:06:26.000Z", 
+      "activity": 0.0158, 
+      "basaliob": 0.149, 
       "hightempinsulin": 0.85, 
-      "bolussnooze": 0, 
-      "iob": 0.571
+      "bolussnooze": 0.592, 
+      "iob": 0.887
     }
   }, 
   "mmtune": {
@@ -38,41 +38,41 @@
       [
         "916.564", 
         5, 
-        -82
+        -90
       ], 
       [
         "916.588", 
         5, 
-        -78
+        -88
       ], 
       [
         "916.612", 
         5, 
-        -78
+        -90
       ], 
       [
         "916.636", 
         5, 
-        -78
+        -89
       ], 
       [
         "916.660", 
         5, 
-        -78
+        -89
       ], 
       [
         "916.684", 
         5, 
-        -80
+        -90
       ], 
       [
         "916.708", 
         5, 
-        -91
+        -92
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-12-10T22:50:05.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2016-12-10T23:06:05.000Z", 
     "usedDefault": false
   }
 }
