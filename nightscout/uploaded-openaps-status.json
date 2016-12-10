@@ -1,42 +1,42 @@
 [
   {
-    "created_at": "2016-12-10T13:15:51.923Z", 
+    "created_at": "2016-12-10T13:23:20.453Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.300", 
+          1, 
+          -89
+        ], 
+        [
           "916.564", 
-          5, 
-          -92
+          2, 
+          -96
         ], 
         [
           "916.588", 
-          5, 
+          4, 
           -91
         ], 
         [
           "916.612", 
-          5, 
-          -91
+          1, 
+          -97
         ], 
         [
           "916.636", 
-          5, 
-          -91
+          1, 
+          -97
         ], 
         [
           "916.660", 
-          5, 
-          -92
-        ], 
-        [
-          "916.684", 
-          5, 
+          1, 
           -97
         ]
       ], 
-      "setFreq": 916.636, 
+      "setFreq": 916.588, 
       "usedDefault": false, 
-      "timestamp": "2016-12-10T13:12:12.000Z"
+      "timestamp": "2016-12-10T13:20:43.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,75 +45,67 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-10T13:12:34.000Z", 
+        "timestamp": "2016-12-10T13:21:23.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 87.025, 
-      "clock": "2016-12-10T05:12:34-08:00"
+      "reservoir": 86.975, 
+      "clock": "2016-12-10T05:21:05-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 96, 
+        "bg": 98, 
         "temp": "absolute", 
-        "snoozeBG": 108, 
-        "timestamp": "2016-12-10T13:15:35.000Z", 
+        "snoozeBG": 114, 
+        "timestamp": "2016-12-10T13:23:04.000Z", 
         "predBGs": {
           "IOB": [
-            96, 
-            96, 
-            96, 
-            96, 
-            96, 
-            97, 
-            97, 
+            98, 
+            98, 
             98, 
             99, 
+            99, 
             100, 
+            101, 
             102, 
+            103, 
             104, 
             105, 
+            106, 
             107, 
-            109, 
+            108, 
+            110, 
             111, 
+            112, 
+            113, 
             113, 
             114, 
+            115, 
             116, 
+            116, 
+            117, 
+            117, 
             118, 
-            120, 
-            121, 
-            122, 
-            124, 
-            125, 
-            126, 
-            127, 
-            128, 
-            129, 
-            130, 
-            130, 
-            131, 
-            131, 
-            132, 
-            132, 
-            132, 
-            132, 
-            133
+            118, 
+            118, 
+            118, 
+            119
           ]
         }, 
-        "reason": "COB: 0, Dev: -11, BGI: 1.6, ISF: 100, Target: 110; Eventual BG 108 < 110, temp 0.4 ~< req 0.4U/hr", 
+        "reason": "COB: 0, Dev: -9, BGI: 1.55, ISF: 100, Target: 110; Eventual BG 114 > 110 but Min. Delta 0.05 < Exp. Delta 1.3; setting current basal of 0.475 as temp, but 23m left and 0.4 ~ req 0.475U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 108, 
-        "tick": "+1", 
-        "IOB": -0.255
+        "eventualBG": 114, 
+        "tick": "+2", 
+        "IOB": -0.278
       }, 
       "iob": {
-        "netbasalinsulin": -0.55, 
-        "timestamp": "2016-12-10T13:12:34.000Z", 
-        "activity": -0.0032, 
-        "basaliob": -0.255, 
+        "netbasalinsulin": -0.5, 
+        "timestamp": "2016-12-10T13:21:05.000Z", 
+        "activity": -0.0031, 
+        "basaliob": -0.278, 
         "hightempinsulin": 0.15, 
         "bolussnooze": 0, 
-        "iob": -0.255
+        "iob": -0.278
       }, 
       "enacted": {
         "bg": 95, 
@@ -132,9 +124,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4379
+      "batteryVoltage": 4376
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584c0007ec3d583b4cd1a880"
+    "_id": "584c01c8ec3d583b4cd1a883"
   }
 ]
