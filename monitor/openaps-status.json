@@ -7,30 +7,153 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-11T00:24:16.000Z", 
+      "timestamp": "2016-12-11T00:29:14.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 75.225, 
-    "clock": "2016-12-10T16:24:16-08:00"
+    "reservoir": 75.175, 
+    "clock": "2016-12-10T16:29:13-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4386
+    "batteryVoltage": 4377
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-12-11T00:25:59.000Z", 
-      "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 0.55U/hr"
+      "bg": 249, 
+      "temp": "absolute", 
+      "snoozeBG": 255, 
+      "timestamp": "2016-12-11T00:31:02.000Z", 
+      "reason": "COB: 58, Dev: 36, BGI: -6, ISF: 100, Target: 110; Eventual BG 393 >= 110, adj. req. rate: 3.45 to maxSafeBasal: 3.25, no temp, setting 3.25U/hr", 
+      "rate": 3.25, 
+      "COB": 58, 
+      "eventualBG": 393, 
+      "duration": 30, 
+      "tick": "+0", 
+      "IOB": 0.621
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-12-11T00:24:16.000Z", 
-      "activity": 0.0119, 
+      "timestamp": "2016-12-11T00:29:13.000Z", 
+      "activity": 0.012, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
-      "bolussnooze": 0.076, 
-      "iob": 0.68
+      "bolussnooze": 0.046, 
+      "iob": 0.621
+    }, 
+    "enacted": {
+      "bg": 249, 
+      "temp": "absolute", 
+      "snoozeBG": 255, 
+      "recieved": true, 
+      "predBGs": {
+        "COB": [
+          249, 
+          249, 
+          249, 
+          249, 
+          249, 
+          250, 
+          251, 
+          252, 
+          253, 
+          255, 
+          257, 
+          259, 
+          262, 
+          265, 
+          268, 
+          271, 
+          275, 
+          279, 
+          283, 
+          287, 
+          292, 
+          297, 
+          302, 
+          307, 
+          311, 
+          316, 
+          321, 
+          326, 
+          331, 
+          335, 
+          340, 
+          345, 
+          349, 
+          354, 
+          358, 
+          363, 
+          367, 
+          371, 
+          376, 
+          380, 
+          384, 
+          388, 
+          393
+        ], 
+        "aCOB": [
+          249, 
+          253, 
+          257, 
+          260, 
+          264, 
+          269, 
+          273, 
+          278, 
+          283, 
+          288, 
+          293, 
+          298, 
+          304, 
+          310, 
+          316, 
+          322, 
+          328, 
+          335, 
+          341, 
+          348, 
+          355, 
+          362, 
+          369, 
+          377, 
+          384, 
+          391, 
+          397, 
+          401
+        ], 
+        "IOB": [
+          249, 
+          249, 
+          247, 
+          246, 
+          245, 
+          243, 
+          241, 
+          239, 
+          237, 
+          235, 
+          232, 
+          229, 
+          226, 
+          224, 
+          222, 
+          220, 
+          218, 
+          217, 
+          216, 
+          215, 
+          214
+        ]
+      }, 
+      "rate": 3.25, 
+      "reason": "COB: 58, Dev: 36, BGI: -6, ISF: 100, Target: 110; Eventual BG 393 >= 110, adj. req. rate: 3.45 to maxSafeBasal: 3.25, no temp, setting 3.25U/hr", 
+      "COB": 58, 
+      "eventualBG": 393, 
+      "timestamp": "2016-12-11T00:31:26.000Z", 
+      "duration": 30, 
+      "tick": "+0", 
+      "IOB": 0.621
     }
   }, 
   "mmtune": {
@@ -43,7 +166,7 @@
       [
         "916.564", 
         5, 
-        -81
+        -82
       ], 
       [
         "916.588", 
@@ -52,8 +175,8 @@
       ], 
       [
         "916.612", 
-        2, 
-        -92
+        4, 
+        -84
       ], 
       [
         "916.636", 
@@ -72,7 +195,7 @@
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-12-11T00:23:55.000Z", 
+    "timestamp": "2016-12-11T00:28:52.000Z", 
     "usedDefault": false
   }
 }
