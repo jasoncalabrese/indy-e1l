@@ -7,72 +7,72 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-11T00:15:34.000Z", 
+      "timestamp": "2016-12-11T00:24:16.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 75.325, 
-    "clock": "2016-12-10T16:15:35-08:00"
+    "reservoir": 75.225, 
+    "clock": "2016-12-10T16:24:16-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4376
+    "batteryVoltage": 4386
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-12-11T00:17:29.000Z", 
+      "timestamp": "2016-12-11T00:25:59.000Z", 
       "reason": "CGM is calibrating or in ??? state, temp 0 <~ current basal 0.55U/hr"
     }, 
     "iob": {
-      "netbasalinsulin": 0.2, 
-      "timestamp": "2016-12-11T00:15:35.000Z", 
-      "activity": 0.0117, 
+      "netbasalinsulin": 0, 
+      "timestamp": "2016-12-11T00:24:16.000Z", 
+      "activity": 0.0119, 
       "basaliob": 0, 
-      "hightempinsulin": 0.2, 
-      "bolussnooze": 0.16, 
-      "iob": 0.783
+      "hightempinsulin": 0, 
+      "bolussnooze": 0.076, 
+      "iob": 0.68
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        5, 
+        -88
+      ], 
+      [
         "916.564", 
-        4, 
-        -83
+        5, 
+        -81
       ], 
       [
         "916.588", 
         5, 
-        -78
+        -80
       ], 
       [
         "916.612", 
-        5, 
-        -78
+        2, 
+        -92
       ], 
       [
         "916.636", 
         5, 
-        -78
+        -80
       ], 
       [
         "916.660", 
         5, 
-        -78
+        -81
       ], 
       [
         "916.684", 
         5, 
-        -80
-      ], 
-      [
-        "916.708", 
-        2, 
-        -97
+        -86
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-12-11T00:15:13.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-12-11T00:23:55.000Z", 
     "usedDefault": false
   }
 }
