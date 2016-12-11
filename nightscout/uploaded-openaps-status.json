@@ -1,13 +1,8 @@
 [
   {
-    "created_at": "2016-12-11T09:34:56.257Z", 
+    "created_at": "2016-12-11T09:41:00.536Z", 
     "mmtune": {
       "scanDetails": [
-        [
-          "916.540", 
-          1, 
-          -98
-        ], 
         [
           "916.564", 
           5, 
@@ -16,12 +11,12 @@
         [
           "916.588", 
           5, 
-          -78
+          -77
         ], 
         [
           "916.612", 
           5, 
-          -77
+          -76
         ], 
         [
           "916.636", 
@@ -40,13 +35,13 @@
         ], 
         [
           "916.708", 
-          5, 
-          -89
+          3, 
+          -92
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2016-12-11T09:32:12.000Z"
+      "timestamp": "2016-12-11T09:38:39.000Z"
     }, 
     "pump": {
       "battery": {
@@ -55,24 +50,23 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-11T09:32:42.000Z", 
+        "timestamp": "2016-12-11T09:39:03.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 131.5, 
-      "clock": "2016-12-11T01:32:34-08:00"
+      "reservoir": 131.4, 
+      "clock": "2016-12-11T01:39:04-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 126, 
         "temp": "absolute", 
-        "snoozeBG": 130, 
-        "timestamp": "2016-12-11T09:34:40.000Z", 
+        "snoozeBG": 125, 
+        "timestamp": "2016-12-11T09:40:45.000Z", 
         "predBGs": {
           "IOB": [
             126, 
-            125, 
-            125, 
+            126, 
             125, 
             125, 
             125, 
@@ -106,27 +100,27 @@
             119
           ]
         }, 
-        "reason": "COB: 0, Dev: 0, BGI: -0.5, ISF: 100, Target: 110; Eventual BG 130 >= 110, temp 1.05 >~ req 1U/hr", 
+        "reason": "COB: 0, Dev: -1, BGI: -0.25, ISF: 100, Target: 110; Eventual BG 125 >= 110, 24m@0.300 = 0.120 > req 0.09+20%. Setting temp basal of 0.925U/hr, but 24m left and 1.05 ~ req 0.925U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 130, 
+        "eventualBG": 125, 
         "tick": "+0", 
-        "IOB": -0.042
+        "IOB": 0.005
       }, 
       "iob": {
-        "netbasalinsulin": 0.2, 
-        "timestamp": "2016-12-11T09:32:34.000Z", 
-        "activity": 0.001, 
-        "basaliob": -0.042, 
-        "hightempinsulin": 0.7, 
+        "netbasalinsulin": 0.25, 
+        "timestamp": "2016-12-11T09:39:04.000Z", 
+        "activity": 0.0005, 
+        "basaliob": 0.005, 
+        "hightempinsulin": 0.75, 
         "bolussnooze": 0, 
-        "iob": -0.042
+        "iob": 0.005
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4380
+      "batteryVoltage": 4384
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584d1dc0bac61df15ea8c2fb"
+    "_id": "584d1f2cbac61df15ea8c2fe"
   }
 ]
