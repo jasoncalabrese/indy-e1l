@@ -1,5 +1,18 @@
 [
   {
+    "programmed": 0.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-12-11T15:52:48 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-12-11T15:52:48", 
+    "_body": "", 
+    "_head": "01000c000c002400", 
+    "amount": 0.3, 
+    "unabsorbed": 0.9, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "f0342f6b10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-12-11T15:44:52 head[2], body[0] op[0x16]", 
@@ -557,16 +570,5 @@
     "_head": "7b05", 
     "rate": 0.6, 
     "_date": "c0000a0b10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 25200000, 
-    "_description": "BasalProfileStart 2016-12-11T09:52:35 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-12-11T09:52:35", 
-    "_body": "0e1600", 
-    "profile_index": 4, 
-    "_head": "7b04", 
-    "rate": 0.55, 
-    "_date": "e334090b10"
   }
 ]
