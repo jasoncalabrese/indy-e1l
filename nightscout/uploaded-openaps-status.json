@@ -1,42 +1,47 @@
 [
   {
-    "created_at": "2016-12-11T21:27:57.641Z", 
+    "created_at": "2016-12-11T21:33:30.583Z", 
     "mmtune": {
       "scanDetails": [
         [
+          "916.540", 
+          5, 
+          -72
+        ], 
+        [
           "916.564", 
-          2, 
-          -96
+          5, 
+          -66
         ], 
         [
           "916.588", 
-          3, 
-          -89
+          5, 
+          -67
         ], 
         [
           "916.612", 
           5, 
-          -85
+          -71
         ], 
         [
           "916.636", 
           5, 
-          -81
+          -70
         ], 
         [
           "916.660", 
-          5, 
-          -83
+          2, 
+          -89
         ], 
         [
           "916.684", 
           5, 
-          -89
+          -77
         ]
       ], 
-      "setFreq": 916.636, 
+      "setFreq": 916.564, 
       "usedDefault": false, 
-      "timestamp": "2016-12-11T21:25:21.000Z"
+      "timestamp": "2016-12-11T21:31:01.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,58 +50,38 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-11T21:25:42.000Z", 
+        "timestamp": "2016-12-11T21:31:26.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 123.175, 
-      "clock": "2016-12-11T13:25:43-08:00"
+      "reservoir": 123.125, 
+      "clock": "2016-12-11T13:31:23-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 106, 
+        "bg": 104, 
         "temp": "absolute", 
-        "snoozeBG": 109, 
-        "timestamp": "2016-12-11T21:27:21.000Z", 
-        "rate": 0.6, 
-        "reason": "COB: 0, Dev: -8, BGI: -0.13, ISF: 90, Target: 105; Eventual BG 109 > 105 but Min. Delta -2.00 < Exp. Delta -0.4; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
-        "COB": 0, 
-        "eventualBG": 109, 
-        "duration": 30, 
-        "tick": -2, 
-        "IOB": -0.125
-      }, 
-      "iob": {
-        "netbasalinsulin": -0.1, 
-        "timestamp": "2016-12-11T21:25:43.000Z", 
-        "activity": 0.0003, 
-        "basaliob": -0.125, 
-        "hightempinsulin": 0.5, 
-        "bolussnooze": 0, 
-        "iob": -0.125
-      }, 
-      "enacted": {
-        "bg": 106, 
-        "temp": "absolute", 
-        "snoozeBG": 109, 
-        "recieved": true, 
+        "snoozeBG": 104, 
+        "timestamp": "2016-12-11T21:33:14.000Z", 
         "predBGs": {
           "IOB": [
-            106, 
             104, 
             102, 
-            101, 
             100, 
+            99, 
             98, 
+            96, 
+            96, 
+            95, 
+            94, 
+            94, 
+            94, 
+            95, 
+            95, 
+            96, 
+            96, 
             97, 
-            97, 
-            96, 
-            96, 
-            96, 
-            96, 
-            96, 
-            97, 
-            97, 
+            98, 
             98, 
             99, 
             99, 
@@ -106,17 +91,33 @@
             102, 
             102, 
             103, 
+            103, 
             104, 
             104, 
-            105, 
-            105, 
-            105, 
-            106, 
-            106, 
-            106, 
-            107
+            104, 
+            105
           ]
         }, 
+        "reason": "COB: 0, Dev: -11, BGI: -0.09, ISF: 90, Target: 105; Eventual BG 104 < 105, temp 0.575 ~< req 0.55U/hr", 
+        "COB": 0, 
+        "eventualBG": 104, 
+        "tick": -2, 
+        "IOB": -0.126
+      }, 
+      "iob": {
+        "netbasalinsulin": -0.15, 
+        "timestamp": "2016-12-11T21:31:23.000Z", 
+        "activity": 0.0002, 
+        "basaliob": -0.126, 
+        "hightempinsulin": 0.45, 
+        "bolussnooze": 0, 
+        "iob": -0.126
+      }, 
+      "enacted": {
+        "bg": 106, 
+        "temp": "absolute", 
+        "snoozeBG": 109, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: -8, BGI: -0.13, ISF: 90, Target: 105; Eventual BG 109 > 105 but Min. Delta -2.00 < Exp. Delta -0.4; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "rate": 0.575, 
         "COB": 0, 
@@ -129,9 +130,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4374
+      "batteryVoltage": 4370
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584dc4ddad6870702785efa7"
+    "_id": "584dc62aad6870702785efa8"
   }
 ]
