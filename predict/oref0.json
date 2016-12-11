@@ -13,8 +13,7 @@
       101, 
       100, 
       99, 
-      98, 
-      98, 
+      99, 
       99, 
       99, 
       100, 
@@ -31,9 +30,11 @@
       104
     ]
   }, 
-  "reason": "COB: 0, Dev: -12, BGI: -2.15, ISF: 100, Target: 110; Eventual BG 110 > 110 but Min. Delta -5.00 < Exp. Delta -2.1; setting current basal of 0.625 as temp, but 24m left and 0.65 ~ req 0.625U/hr: no action required", 
+  "rate": 0.625, 
+  "reason": "COB: 0, Dev: -13, BGI: -1.9, ISF: 100, Target: 110; Eventual BG 110 > 110 but Min. Delta -5.00 < Exp. Delta -1.9; setting current basal of 0.625 as temp", 
   "COB": 0, 
   "eventualBG": 110, 
+  "duration": 30, 
   "tick": -5, 
-  "IOB": -0.009
+  "IOB": -0.023
 }
