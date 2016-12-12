@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-12-12T20:49:04.572Z", 
+    "created_at": "2016-12-12T20:54:07.116Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
           5, 
-          -74
+          -75
         ], 
         [
           "916.564", 
           5, 
-          -63
+          -69
         ], 
         [
           "916.588", 
           5, 
-          -56
+          -64
         ], 
         [
           "916.612", 
           5, 
-          -57
+          -64
         ], 
         [
           "916.636", 
           5, 
-          -58
+          -63
         ], 
         [
           "916.660", 
           5, 
-          -59
+          -61
         ], 
         [
           "916.684", 
-          5, 
-          -70
+          4, 
+          -73
         ]
       ], 
-      "setFreq": 916.588, 
+      "setFreq": 916.66, 
       "usedDefault": false, 
-      "timestamp": "2016-12-12T20:46:35.000Z"
+      "timestamp": "2016-12-12T20:51:13.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,62 +50,38 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-12T20:46:47.000Z", 
+        "timestamp": "2016-12-12T20:51:56.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 92.1, 
-      "clock": "2016-12-12T12:46:49-08:00"
+      "reservoir": 92.025, 
+      "clock": "2016-12-12T12:51:35-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 122, 
         "temp": "absolute", 
-        "snoozeBG": 133, 
-        "timestamp": "2016-12-12T20:48:36.000Z", 
-        "rate": 0.6, 
-        "reason": "COB: 37, Dev: -1, BGI: -5.97, ISF: 89, Target: 105; Eventual BG 54 < 105, bolus snooze: eventual BG range 54-133; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
-        "COB": 37, 
-        "eventualBG": 54, 
-        "duration": 30, 
-        "tick": -5, 
-        "IOB": 2.148
-      }, 
-      "iob": {
-        "netbasalinsulin": 0.6, 
-        "timestamp": "2016-12-12T20:46:49.000Z", 
-        "activity": 0.0134, 
-        "basaliob": 0.412, 
-        "hightempinsulin": 0.65, 
-        "bolussnooze": 1.517, 
-        "iob": 2.148
-      }, 
-      "enacted": {
-        "bg": 122, 
-        "temp": "absolute", 
-        "snoozeBG": 133, 
-        "recieved": true, 
+        "snoozeBG": 132, 
+        "timestamp": "2016-12-12T20:53:51.000Z", 
         "predBGs": {
           "COB": [
             122, 
-            120, 
-            117, 
-            114, 
-            111, 
-            107, 
-            103, 
-            98, 
-            92, 
-            86, 
-            80, 
-            73, 
-            66, 
-            59, 
-            53, 
-            48, 
-            43, 
-            39, 
-            39, 
+            119, 
+            116, 
+            113, 
+            109, 
+            105, 
+            100, 
+            94, 
+            88, 
+            82, 
+            75, 
+            68, 
+            62, 
+            56, 
+            50, 
+            45, 
+            41, 
             39, 
             39, 
             39, 
@@ -129,29 +105,30 @@
             47, 
             50, 
             52, 
-            54
+            54, 
+            56, 
+            59
           ], 
           "aCOB": [
             122, 
-            126, 
-            129, 
-            131, 
-            133, 
-            134, 
-            134, 
-            133, 
-            132, 
+            125, 
+            128, 
             130, 
-            127, 
-            124, 
-            120, 
-            117, 
-            114, 
-            111, 
+            131, 
+            131, 
+            131, 
+            130, 
+            128, 
+            126, 
+            123, 
+            119, 
+            116, 
+            113, 
+            110, 
             108, 
             106, 
             104, 
-            103, 
+            102, 
             101, 
             100, 
             100, 
@@ -159,7 +136,7 @@
             99, 
             99, 
             99, 
-            99, 
+            100, 
             100, 
             101, 
             102, 
@@ -167,25 +144,46 @@
             104, 
             105, 
             106, 
-            107
+            107, 
+            107, 
+            108
           ], 
           "IOB": [
             122, 
-            120, 
-            117, 
-            113, 
-            108, 
-            103, 
-            96, 
-            89, 
-            82, 
-            73, 
-            64, 
-            54, 
-            43, 
+            119, 
+            116, 
+            111, 
+            106, 
+            100, 
+            94, 
+            86, 
+            78, 
+            69, 
+            59, 
+            49, 
             39
           ]
         }, 
+        "reason": "COB: 36, Dev: 9, BGI: -6.46, ISF: 89, Target: 105; Eventual BG 59 < 105, bolus snooze: eventual BG range 59-132; setting current basal of 0.6 as temp, but 27m left and 0.575 ~ req 0.6U/hr: no action required", 
+        "COB": 36, 
+        "eventualBG": 59, 
+        "tick": "+0", 
+        "IOB": 2.079
+      }, 
+      "iob": {
+        "netbasalinsulin": 0.6, 
+        "timestamp": "2016-12-12T20:51:35.000Z", 
+        "activity": 0.0145, 
+        "basaliob": 0.383, 
+        "hightempinsulin": 0.65, 
+        "bolussnooze": 1.388, 
+        "iob": 2.079
+      }, 
+      "enacted": {
+        "bg": 122, 
+        "temp": "absolute", 
+        "snoozeBG": 133, 
+        "recieved": true, 
         "reason": "COB: 37, Dev: -1, BGI: -5.97, ISF: 89, Target: 105; Eventual BG 54 < 105, bolus snooze: eventual BG range 54-133; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "rate": 0.575, 
         "COB": 37, 
@@ -198,9 +196,9 @@
     }, 
     "uploader": {
       "battery": 60, 
-      "batteryVoltage": 3775
+      "batteryVoltage": 3779
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "584f0d40691a18e067cf2009"
+    "_id": "584f0e6f691a18e067cf200a"
   }
 ]
