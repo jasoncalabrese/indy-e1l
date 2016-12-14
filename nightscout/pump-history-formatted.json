@@ -1,5 +1,62 @@
 [
   {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-12-13T21:21:46 head[2], body[0] op[0x21]", 
+    "notes": "Rewind 723 ", 
+    "timestamp": "2016-12-13T21:21:46-08:00", 
+    "_body": "", 
+    "_head": "2100", 
+    "enteredBy": "openaps://medtronic/723", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
+    "eventType": "Note", 
+    "created_at": "2016-12-13T21:21:46-08:00", 
+    "_date": "ee15150d10"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-12-13T21:21:40 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-12-13T21:21:40-08:00", 
+      "_body": "00", 
+      "_head": "3300", 
+      "rate": 0, 
+      "_date": "e815150d10"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-12-13T21:21:40 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-12-13T21:21:40-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "e815150d10"
+    }, 
+    "created_at": "2016-12-13T21:21:40-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 0, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-12-13T21:21:40-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-12-13T21:20:58 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-12-13T21:20:58-08:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a49", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 73, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-12-13T21:20:58-08:00", 
+    "_date": "fa14356d10", 
+    "glucose": 73
+  }, 
+  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
@@ -797,57 +854,5 @@
     "duration": "0", 
     "notes": "Normal bolus with wizard.\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%\nFood estimate 0.9\nCorrection estimate 0\nBolus estimate 0.9\nTarget low 100\nTarget high 180\nHypothetical glucose delta -54", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-12-13T15:19:38 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-12-13T15:19:38-08:00", 
-      "_body": "00", 
-      "_head": "3300", 
-      "rate": 0, 
-      "_date": "e6130f4d10"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-12-13T15:19:38 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-12-13T15:19:38-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "e6130f4d10"
-    }, 
-    "created_at": "2016-12-13T15:19:38-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-12-13T15:19:38-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0"
-  }, 
-  {
-    "bolus": {
-      "programmed": 0.3, 
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-12-13T15:14:06 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-12-13T15:14:06-08:00", 
-      "_body": "", 
-      "_head": "01000c000c000800", 
-      "amount": 0.3, 
-      "unabsorbed": 0.2, 
-      "duration": 0, 
-      "type": "normal", 
-      "_date": "c60e2f6d10"
-    }, 
-    "timestamp": "2016-12-13T15:14:06-08:00", 
-    "created_at": "2016-12-13T15:14:06-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "insulin": "0.3", 
-    "eventType": "Correction Bolus", 
-    "duration": "0", 
-    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.3\nDelivered bolus 0.3\nPercent delivered:  100%", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
   }
 ]
