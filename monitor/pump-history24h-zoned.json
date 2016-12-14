@@ -1,5 +1,78 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-12-14T11:42:50 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-12-14T11:42:50-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0b204bc0101dd01827d0", 
+        "data": [
+          {
+            "amount": 0.8, 
+            "age": 75
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 285
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 295
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.8, 
+    "duration": 0, 
+    "amount": 1.8, 
+    "unabsorbed": 0.5, 
+    "_head": "0100480048001400", 
+    "type": "normal", 
+    "_date": "f22a2b0e10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 176, 
+    "_description": "BolusWizard 2016-12-14T11:42:49 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-12-14T11:42:49-08:00", 
+    "_body": "285000dc5a640000480000140048b4", 
+    "carb_input": 40, 
+    "bg_target_high": 180, 
+    "sensitivity": 90, 
+    "carb_ratio": 22.0, 
+    "food_estimate": 1.8, 
+    "unabsorbed_insulin_total": 0.5, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 100, 
+    "_head": "5bb0", 
+    "bolus_estimate": 1.8, 
+    "_date": "f12a0b0e10"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "_description": "BGReceived 2016-12-14T11:42:09 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-12-14T11:42:09-08:00", 
+    "_body": "c23647", 
+    "_head": "3f16", 
+    "amount": 176, 
+    "link": "c23647", 
+    "_date": "c92a0b6e10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-12-14T11:42:09 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-12-14T11:42:09-08:00", 
+    "_body": "", 
+    "_head": "0ab0", 
+    "amount": 176, 
+    "_date": "c92a2b6e10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-12-14T11:36:44 head[2], body[0] op[0x16]", 
     "timestamp": "2016-12-14T11:36:44-08:00", 
