@@ -1,5 +1,42 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2016-12-14T14:57:38 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-12-14T14:57:38", 
+    "_body": "125000c85a640000240000000024b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "e6390e0e10", 
+    "bolus_estimate": 0.9, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.8, 
+            "age": 200
+          }, 
+          {
+            "amount": 0.8, 
+            "age": 270
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0848c8c0200ed0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 100, 
+    "carb_ratio": 20.0, 
+    "food_estimate": 0.9, 
+    "carb_input": 18, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-12-14T14:48:36 head[2], body[0] op[0x16]", 
