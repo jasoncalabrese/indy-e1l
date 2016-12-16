@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-16T18:24:27.000Z", 
+      "timestamp": "2016-12-16T18:31:14.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 53.025, 
-    "clock": "2016-12-16T10:24:30-08:00"
+    "reservoir": 52.775, 
+    "clock": "2016-12-16T10:31:17-08:00"
   }, 
   "uploader": {
     "battery": 72, 
@@ -20,74 +20,72 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 137, 
+      "bg": 144, 
       "temp": "absolute", 
-      "snoozeBG": 178, 
-      "timestamp": "2016-12-16T18:27:52.000Z", 
-      "reason": "COB: undefined, Dev: 61, BGI: -2.12, ISF: 90, Target: 100; Eventual BG 162 >= 100, temp 1.55<2U/hr", 
-      "rate": 2, 
-      "eventualBG": 162, 
-      "duration": 30, 
-      "tick": "+8", 
-      "IOB": 0.403
+      "snoozeBG": 167, 
+      "timestamp": "2016-12-16T18:34:04.000Z", 
+      "predBGs": {
+        "IOB": [
+          144, 
+          150, 
+          155, 
+          160, 
+          163, 
+          166, 
+          168, 
+          168, 
+          169, 
+          168, 
+          166, 
+          164, 
+          160, 
+          157, 
+          153, 
+          149, 
+          145, 
+          141, 
+          137, 
+          133, 
+          129, 
+          125, 
+          122, 
+          119, 
+          117, 
+          114, 
+          112, 
+          110, 
+          108, 
+          106, 
+          104, 
+          103, 
+          101, 
+          100, 
+          99, 
+          99, 
+          98, 
+          98, 
+          97
+        ]
+      }, 
+      "reason": "COB: undefined, Dev: 56, BGI: -2.38, ISF: 90, Target: 100; Eventual BG 158 >= 100, temp 2 >~ req 1.9U/hr", 
+      "eventualBG": 158, 
+      "tick": "+7", 
+      "IOB": 0.467
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2016-12-16T18:24:30.000Z", 
-      "activity": 0.0047, 
-      "basaliob": -0.09, 
-      "hightempinsulin": 0.35, 
-      "bolussnooze": 0.116, 
-      "iob": 0.403
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2016-12-16T18:31:17.000Z", 
+      "activity": 0.0053, 
+      "basaliob": 0.022, 
+      "hightempinsulin": 0.45, 
+      "bolussnooze": 0.066, 
+      "iob": 0.467
     }, 
     "enacted": {
       "bg": 137, 
       "temp": "absolute", 
       "snoozeBG": 178, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          137, 
-          144, 
-          150, 
-          155, 
-          159, 
-          162, 
-          164, 
-          166, 
-          167, 
-          167, 
-          166, 
-          164, 
-          161, 
-          158, 
-          156, 
-          153, 
-          150, 
-          147, 
-          144, 
-          141, 
-          139, 
-          136, 
-          134, 
-          132, 
-          130, 
-          129, 
-          128, 
-          126, 
-          125, 
-          124, 
-          123, 
-          122, 
-          121, 
-          120, 
-          120, 
-          119, 
-          119, 
-          119, 
-          118
-        ]
-      }, 
       "rate": 2, 
       "reason": "COB: undefined, Dev: 61, BGI: -2.12, ISF: 90, Target: 100; Eventual BG 162 >= 100, temp 1.55<2U/hr", 
       "eventualBG": 162, 
@@ -100,43 +98,38 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        5, 
-        -52
-      ], 
-      [
         "916.564", 
         5, 
-        -44
+        -71
       ], 
       [
         "916.588", 
-        4, 
-        -54
+        5, 
+        -66
       ], 
       [
         "916.612", 
         5, 
-        -43
+        -75
       ], 
       [
         "916.636", 
         5, 
-        -43
+        -78
       ], 
       [
         "916.660", 
         5, 
-        -44
+        -62
       ], 
       [
         "916.684", 
         5, 
-        -48
+        -63
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2016-12-16T18:24:03.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-12-16T18:30:53.000Z", 
     "usedDefault": false
   }
 }
