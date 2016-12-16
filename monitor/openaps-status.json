@@ -7,76 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-16T09:57:25.000Z", 
+      "timestamp": "2016-12-16T10:01:16.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 58.275, 
-    "clock": "2016-12-16T01:57:28-08:00"
+    "clock": "2016-12-16T02:01:18-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4370
+    "batteryVoltage": 4367
   }, 
   "openaps": {
     "suggested": {
-      "bg": 74, 
-      "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-12-16T09:59:00.000Z", 
-      "predBGs": {
-        "IOB": [
-          74, 
-          73, 
-          73, 
-          73, 
-          74, 
-          74, 
-          75, 
-          77, 
-          79, 
-          81, 
-          83, 
-          85, 
-          88, 
-          91, 
-          94, 
-          96, 
-          99, 
-          101, 
-          103, 
-          106, 
-          108, 
-          109, 
-          111, 
-          113, 
-          114, 
-          116, 
-          117, 
-          118, 
-          119, 
-          120, 
-          121, 
-          121, 
-          122, 
-          122, 
-          123
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -18, BGI: 2.07, ISF: 90, Target: 100; BG 74<75, but 22m left and 0 ~ req 0U/hr: no action required", 
-      "COB": 0, 
-      "eventualBG": 101, 
-      "tick": "+0", 
-      "IOB": -0.499
+      "timestamp": "2016-12-16T10:03:15.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Dec 16 2016 01:49:26 GMT-0800 (PST) but your system time is Fri Dec 16 2016 02:03:15 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.5, 
-      "timestamp": "2016-12-16T09:57:28.000Z", 
-      "activity": -0.0046, 
-      "basaliob": -0.499, 
-      "hightempinsulin": 0.35, 
+      "netbasalinsulin": -0.6, 
+      "timestamp": "2016-12-16T10:01:18.000Z", 
+      "activity": -0.0048, 
+      "basaliob": -0.531, 
+      "hightempinsulin": 0.3, 
       "bolussnooze": 0, 
-      "iob": -0.499
+      "iob": -0.531
     }, 
     "enacted": {
       "bg": 74, 
@@ -96,19 +50,14 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        5, 
-        -91
-      ], 
-      [
         "916.564", 
-        5, 
-        -80
+        4, 
+        -85
       ], 
       [
         "916.588", 
         5, 
-        -78
+        -79
       ], 
       [
         "916.612", 
@@ -118,12 +67,12 @@
       [
         "916.636", 
         5, 
-        -78
+        -79
       ], 
       [
         "916.660", 
         5, 
-        -78
+        -79
       ], 
       [
         "916.684", 
@@ -132,12 +81,12 @@
       ], 
       [
         "916.708", 
-        4, 
-        -95
+        5, 
+        -92
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-12-16T09:57:13.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-12-16T10:00:55.000Z", 
     "usedDefault": false
   }
 }
