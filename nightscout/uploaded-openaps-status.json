@@ -1,17 +1,17 @@
 [
   {
-    "created_at": "2016-12-17T14:23:33.694Z", 
+    "created_at": "2016-12-17T14:30:47.545Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
           5, 
-          -88
+          -87
         ], 
         [
           "916.588", 
           5, 
-          -83
+          -82
         ], 
         [
           "916.612", 
@@ -41,7 +41,7 @@
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-12-17T14:19:56.000Z"
+      "timestamp": "2016-12-17T14:27:56.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,95 +50,93 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-17T14:20:50.000Z", 
+        "timestamp": "2016-12-17T14:28:18.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 111.2, 
-      "clock": "2016-12-17T06:20:20-08:00"
+      "reservoir": 111.125, 
+      "clock": "2016-12-17T06:28:20-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 137, 
+        "bg": 136, 
         "temp": "absolute", 
-        "snoozeBG": 117, 
-        "timestamp": "2016-12-17T14:23:06.000Z", 
-        "rate": 0.875, 
-        "reason": "COB: 0, Dev: 1, BGI: -1.23, ISF: 82, Target: 96; Eventual BG 117 >= 96, temp 0.675<0.875U/hr", 
+        "snoozeBG": 113, 
+        "timestamp": "2016-12-17T14:30:11.000Z", 
+        "rate": 0.775, 
+        "reason": "COB: 0, Dev: 1, BGI: -1.23, ISF: 82, Target: 96; Eventual BG 113 >= 96, temp 0.625<0.775U/hr", 
         "COB": 0, 
-        "eventualBG": 117, 
+        "eventualBG": 113, 
         "duration": 30, 
         "tick": -1, 
-        "IOB": 0.262
+        "IOB": 0.288
       }, 
       "iob": {
-        "netbasalinsulin": 0.7, 
-        "timestamp": "2016-12-17T14:20:20.000Z", 
+        "netbasalinsulin": 0.55, 
+        "timestamp": "2016-12-17T14:28:20.000Z", 
         "activity": 0.003, 
-        "basaliob": 0.262, 
-        "hightempinsulin": 0.8, 
+        "basaliob": 0.288, 
+        "hightempinsulin": 0.65, 
         "bolussnooze": 0, 
-        "iob": 0.262
+        "iob": 0.288
       }, 
       "enacted": {
-        "bg": 137, 
+        "bg": 136, 
         "temp": "absolute", 
-        "snoozeBG": 117, 
+        "snoozeBG": 113, 
         "recieved": true, 
         "predBGs": {
           "IOB": [
-            137, 
             136, 
             135, 
             134, 
-            133, 
+            132, 
             131, 
             130, 
             129, 
-            128, 
             127, 
-            125, 
+            126, 
             124, 
             123, 
             121, 
             120, 
-            119, 
             118, 
             117, 
-            116, 
             115, 
             114, 
             113, 
-            112, 
-            111, 
             111, 
             110, 
-            110, 
-            109, 
-            109, 
             109, 
             108, 
-            108, 
-            108, 
-            108, 
-            107
+            107, 
+            106, 
+            105, 
+            104, 
+            103, 
+            103, 
+            102, 
+            101, 
+            101, 
+            101, 
+            100
           ]
         }, 
-        "reason": "COB: 0, Dev: 1, BGI: -1.23, ISF: 82, Target: 96; Eventual BG 117 >= 96, temp 0.675<0.875U/hr", 
-        "rate": 0.875, 
+        "reason": "COB: 0, Dev: 1, BGI: -1.23, ISF: 82, Target: 96; Eventual BG 113 >= 96, temp 0.625<0.775U/hr", 
+        "rate": 0.775, 
         "COB": 0, 
-        "eventualBG": 117, 
-        "timestamp": "2016-12-17T14:23:18.000Z", 
+        "eventualBG": 113, 
+        "timestamp": "2016-12-17T14:30:31.000Z", 
         "duration": 30, 
         "tick": -1, 
-        "IOB": 0.262
+        "IOB": 0.288
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4377
+      "batteryVoltage": 4374
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58554a65cb3fb22253f374d1"
+    "_id": "58554c17cb3fb22253f374d3"
   }
 ]
