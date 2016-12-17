@@ -3,6 +3,93 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2016-12-16T16:20:12 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-12-16T16:20:12-08:00", 
+      "_body": "00", 
+      "_head": "3346", 
+      "rate": 1.75, 
+      "_date": "cc14105010"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-12-16T16:20:12 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-12-16T16:20:12-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "cc14105010"
+    }, 
+    "created_at": "2016-12-16T16:20:12-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 1.75, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-12-16T16:20:12-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "1.75"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-12-16T16:05:14 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-12-16T16:05:14-08:00", 
+      "_body": "00", 
+      "_head": "333e", 
+      "rate": 1.55, 
+      "_date": "ce05105010"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-12-16T16:05:14 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-12-16T16:05:14-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "ce05105010"
+    }, 
+    "created_at": "2016-12-16T16:05:14-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 1.55, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-12-16T16:05:14-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "1.55"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-12-16T16:00:44 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-12-16T16:00:44-08:00", 
+      "_body": "00", 
+      "_head": "331b", 
+      "rate": 0.675, 
+      "_date": "ec00105010"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-12-16T16:00:44 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-12-16T16:00:44-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "ec00105010"
+    }, 
+    "created_at": "2016-12-16T16:00:44-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 0.675, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-12-16T16:00:44-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0.675"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2016-12-16T15:32:51 head[2], body[1] op[0x33]", 
       "timestamp": "2016-12-16T15:32:51-08:00", 
       "_body": "00", 
@@ -869,92 +956,5 @@
     "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": "1.55"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-12-16T10:06:52 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-12-16T10:06:52-08:00", 
-      "_body": "00", 
-      "_head": "3316", 
-      "rate": 0.55, 
-      "_date": "f4060a5010"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-12-16T10:06:52 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-12-16T10:06:52-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "f4060a5010"
-    }, 
-    "created_at": "2016-12-16T10:06:52-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.55, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-12-16T10:06:52-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.55"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-12-16T09:57:38 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-12-16T09:57:38-08:00", 
-      "_body": "00", 
-      "_head": "3302", 
-      "rate": 0.05, 
-      "_date": "e639095010"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-12-16T09:57:38 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-12-16T09:57:38-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "e639095010"
-    }, 
-    "created_at": "2016-12-16T09:57:38-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.05, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-12-16T09:57:38-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.05"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-12-16T09:49:41 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-12-16T09:49:41-08:00", 
-      "_body": "00", 
-      "_head": "3316", 
-      "rate": 0.55, 
-      "_date": "e931095010"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-12-16T09:49:41 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-12-16T09:49:41-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "e931095010"
-    }, 
-    "created_at": "2016-12-16T09:49:41-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.55, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-12-16T09:49:41-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.55"
   }
 ]
