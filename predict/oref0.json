@@ -1,19 +1,12 @@
 {
-  "bg": 97, 
+  "bg": 98, 
   "temp": "absolute", 
-  "snoozeBG": 101, 
+  "snoozeBG": 104, 
   "predBGs": {
     "IOB": [
-      97, 
-      97, 
-      97, 
-      97, 
-      97, 
       98, 
       98, 
       98, 
-      98, 
-      99, 
       99, 
       99, 
       99, 
@@ -25,19 +18,23 @@
       101, 
       101, 
       101, 
-      101, 
       102, 
       102, 
       102, 
       102, 
-      102, 
-      102, 
-      103
+      103, 
+      103, 
+      103, 
+      103, 
+      103, 
+      104
     ]
   }, 
-  "reason": "COB: 0, Dev: -3, BGI: 0.45, ISF: 90, Target: 100; Eventual BG 101 > 100 but Min. Delta 0.00 < Exp. Delta 0.4, temp 0.525 ~ req 0.525U/hr", 
+  "rate": 0.6, 
+  "reason": "COB: 0, Dev: -1, BGI: 0.41, ISF: 90, Target: 100; Eventual BG 104 >= 100, temp 0.525<0.6U/hr", 
   "COB": 0, 
-  "eventualBG": 101, 
-  "tick": "+0", 
-  "IOB": -0.083
+  "eventualBG": 104, 
+  "duration": 30, 
+  "tick": "+1", 
+  "IOB": -0.076
 }
