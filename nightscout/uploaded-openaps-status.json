@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-12-18T01:50:57.767Z", 
+    "created_at": "2016-12-18T01:56:34.897Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
-          1, 
-          -93
+          5, 
+          -64
         ], 
         [
           "916.564", 
-          4, 
-          -63
-        ], 
-        [
-          "916.588", 
           5, 
           -56
         ], 
         [
+          "916.588", 
+          5, 
+          -54
+        ], 
+        [
           "916.612", 
           5, 
-          -59
+          -54
         ], 
         [
           "916.636", 
           5, 
-          -58
+          -55
         ], 
         [
           "916.660", 
           5, 
-          -62
+          -56
         ], 
         [
           "916.684", 
           5, 
-          -59
+          -62
         ]
       ], 
-      "setFreq": 916.588, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2016-12-18T01:48:11.000Z"
+      "timestamp": "2016-12-18T01:54:11.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,106 +50,32 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-18T01:48:31.000Z", 
+        "timestamp": "2016-12-18T01:54:31.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 96.025, 
-      "clock": "2016-12-17T17:48:35-08:00"
+      "reservoir": 96, 
+      "clock": "2016-12-17T17:54:35-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 164, 
-        "temp": "absolute", 
-        "snoozeBG": 62, 
-        "timestamp": "2016-12-18T01:50:20.000Z", 
-        "rate": 0, 
-        "reason": "COB: 10, Dev: -19, BGI: -8.53, ISF: 85, Target: 80; Eventual BG 62 < 80, setting -0.225U/hr", 
-        "COB": 10, 
-        "eventualBG": 62, 
-        "duration": 30, 
-        "tick": -13, 
-        "IOB": 0.976
+        "timestamp": "2016-12-18T01:56:19.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Dec 17 2016 17:44:30 GMT-0800 (PST) but your system time is Sat Dec 17 2016 17:56:19 GMT-0800 (PST)"
       }, 
       "iob": {
-        "netbasalinsulin": 3.7, 
-        "timestamp": "2016-12-18T01:48:35.000Z", 
-        "activity": 0.0201, 
-        "basaliob": 0.976, 
-        "hightempinsulin": 3.9, 
+        "netbasalinsulin": 3.5, 
+        "timestamp": "2016-12-18T01:54:35.000Z", 
+        "activity": 0.0192, 
+        "basaliob": 0.86, 
+        "hightempinsulin": 3.7, 
         "bolussnooze": 0, 
-        "iob": 0.976
+        "iob": 0.86
       }, 
       "enacted": {
         "bg": 164, 
         "temp": "absolute", 
         "snoozeBG": 62, 
         "recieved": true, 
-        "predBGs": {
-          "aCOB": [
-            164, 
-            161, 
-            158, 
-            155, 
-            152, 
-            149, 
-            147, 
-            145, 
-            144, 
-            142, 
-            142, 
-            141, 
-            140, 
-            140, 
-            139, 
-            138, 
-            136, 
-            134, 
-            133, 
-            132, 
-            131, 
-            130, 
-            130, 
-            129, 
-            129, 
-            129, 
-            129, 
-            129, 
-            130
-          ], 
-          "IOB": [
-            164, 
-            151, 
-            139, 
-            128, 
-            118, 
-            108, 
-            100, 
-            92, 
-            85, 
-            79, 
-            75, 
-            71, 
-            67, 
-            64, 
-            62, 
-            60, 
-            58, 
-            56, 
-            55, 
-            53, 
-            53, 
-            52, 
-            51, 
-            51, 
-            51, 
-            51, 
-            51, 
-            51, 
-            51, 
-            52
-          ]
-        }, 
         "reason": "COB: 10, Dev: -19, BGI: -8.53, ISF: 85, Target: 80; Eventual BG 62 < 80, setting -0.225U/hr", 
         "rate": 0, 
         "COB": 10, 
@@ -162,9 +88,9 @@
     }, 
     "uploader": {
       "battery": 83, 
-      "batteryVoltage": 4010
+      "batteryVoltage": 4014
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "5855eb81cb3fb22253f37556"
+    "_id": "5855ecd2cb3fb22253f37557"
   }
 ]
