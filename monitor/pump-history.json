@@ -1,5 +1,73 @@
 [
   {
+    "programmed": 1.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-12-25T12:08:00 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-12-25T12:08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 221
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0528ddc0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100280028000000", 
+    "amount": 1.0, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "c0082c1910"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2016-12-25T12:08:00 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-12-25T12:08:00", 
+    "_body": "125000b45a640000280000000028b4", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "c0080c1910", 
+    "bolus_estimate": 1.0, 
+    "bg_target_low": 100, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.0, 
+    "carb_input": 18, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-12-25T12:07:11 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-12-25T12:07:11", 
+    "_body": "", 
+    "fixed": 0.3, 
+    "_head": "0300030003", 
+    "amount": 0.3, 
+    "_date": "cb070c1910"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 36000000, 
+    "_description": "BasalProfileStart 2016-12-25T12:07:21 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-12-25T12:07:21", 
+    "_body": "141800", 
+    "profile_index": 5, 
+    "_head": "7b05", 
+    "rate": 0.6, 
+    "_date": "d5070c1910"
+  }, 
+  {
     "_type": "Prime", 
     "type": "manual", 
     "_description": "Prime 2016-12-25T11:57:34 head[5], body[0] op[0x03]", 
