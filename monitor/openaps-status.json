@@ -3,90 +3,212 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.5
+      "voltage": 1.48
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-29T20:59:04.000Z", 
+      "timestamp": "2016-12-29T21:03:24.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 126.625, 
-    "clock": "2016-12-29T12:59:12-08:00"
+    "reservoir": 124.775, 
+    "clock": "2016-12-29T13:03:32-08:00"
   }, 
   "uploader": {
     "battery": 72, 
-    "batteryVoltage": 3898
+    "batteryVoltage": 3895
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-12-29T21:00:45.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Thu Dec 29 2016 12:49:57 GMT-0800 (PST) but your system time is Thu Dec 29 2016 13:00:45 GMT-0800 (PST)"
+      "bg": 122, 
+      "temp": "absolute", 
+      "snoozeBG": 203, 
+      "timestamp": "2016-12-29T21:05:18.000Z", 
+      "reason": "COB: 40, Dev: 30, BGI: -0.99, ISF: 87, Target: 80; Eventual BG 71 < 80, bolus snooze: eventual BG range 71-203; setting current basal of 0.625 as temp", 
+      "rate": 0.625, 
+      "COB": 40, 
+      "eventualBG": 71, 
+      "duration": 30, 
+      "tick": "+4", 
+      "IOB": 1.88
     }, 
     "iob": {
-      "netbasalinsulin": 0.55, 
-      "timestamp": "2016-12-29T20:59:12.000Z", 
-      "activity": 0.002, 
-      "basaliob": 0.14, 
-      "hightempinsulin": 0.7, 
-      "bolussnooze": 0, 
-      "iob": 0.14
+      "netbasalinsulin": 0.65, 
+      "timestamp": "2016-12-29T21:03:32.000Z", 
+      "activity": 0.0023, 
+      "basaliob": 0.232, 
+      "hightempinsulin": 0.8, 
+      "bolussnooze": 1.646, 
+      "iob": 1.88
     }, 
     "enacted": {
-      "bg": 110, 
+      "bg": 122, 
       "temp": "absolute", 
-      "snoozeBG": 149, 
+      "snoozeBG": 203, 
       "recieved": true, 
-      "rate": 2.25, 
-      "reason": "COB: 11, Dev: 39, BGI: -0.95, ISF: 87, Target: 80; Eventual BG 149 >= 80, temp 1.8<2.25U/hr", 
-      "COB": 11, 
-      "eventualBG": 149, 
-      "timestamp": "2016-12-29T20:56:46.000Z", 
+      "predBGs": {
+        "COB": [
+          122, 
+          126, 
+          129, 
+          132, 
+          135, 
+          136, 
+          137, 
+          137, 
+          136, 
+          135, 
+          132, 
+          129, 
+          125, 
+          120, 
+          114, 
+          108, 
+          101, 
+          94, 
+          87, 
+          81, 
+          75, 
+          70, 
+          65, 
+          60, 
+          57, 
+          53, 
+          51, 
+          48, 
+          47, 
+          45, 
+          45, 
+          45, 
+          45, 
+          46, 
+          48, 
+          50, 
+          53, 
+          56, 
+          59, 
+          62, 
+          65, 
+          68, 
+          71
+        ], 
+        "aCOB": [
+          122, 
+          131, 
+          139, 
+          146, 
+          153, 
+          159, 
+          164, 
+          168, 
+          171, 
+          174, 
+          175, 
+          175, 
+          175, 
+          173, 
+          170, 
+          166, 
+          162, 
+          158, 
+          154, 
+          150, 
+          146, 
+          143, 
+          140, 
+          138, 
+          136, 
+          134, 
+          133, 
+          132, 
+          131, 
+          131, 
+          131, 
+          132, 
+          133, 
+          135, 
+          137, 
+          139, 
+          142, 
+          145, 
+          147, 
+          150, 
+          153, 
+          155, 
+          158
+        ], 
+        "IOB": [
+          122, 
+          126, 
+          128, 
+          130, 
+          131, 
+          131, 
+          129, 
+          127, 
+          123, 
+          118, 
+          112, 
+          105, 
+          96, 
+          87, 
+          77, 
+          66, 
+          54, 
+          43, 
+          39
+        ]
+      }, 
+      "rate": 0.625, 
+      "reason": "COB: 40, Dev: 30, BGI: -0.99, ISF: 87, Target: 80; Eventual BG 71 < 80, bolus snooze: eventual BG range 71-203; setting current basal of 0.625 as temp", 
+      "COB": 40, 
+      "eventualBG": 71, 
+      "timestamp": "2016-12-29T21:05:41.000Z", 
       "duration": 30, 
-      "tick": "+10", 
-      "IOB": -0.001
+      "tick": "+4", 
+      "IOB": 1.88
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
         "916.540", 
-        5, 
-        -68
+        4, 
+        -73
       ], 
       [
         "916.564", 
         5, 
-        -66
+        -63
       ], 
       [
         "916.588", 
         5, 
-        -60
+        -62
       ], 
       [
         "916.612", 
         5, 
-        -71
+        -62
       ], 
       [
         "916.636", 
         5, 
-        -69
+        -64
       ], 
       [
         "916.660", 
         5, 
-        -72
+        -66
       ], 
       [
         "916.684", 
-        2, 
-        -95
+        4, 
+        -82
       ]
     ], 
-    "setFreq": 916.588, 
-    "timestamp": "2016-12-29T20:58:40.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-12-29T21:03:03.000Z", 
     "usedDefault": false
   }
 }
