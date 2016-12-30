@@ -1,0 +1,25 @@
+{
+  "_id": "5865d22465110bbfc1950ddd",
+  "duration": 0,
+  "bolus": {
+    "programmed": 0.6,
+    "_type": "Bolus",
+    "_description": "Bolus 2016-12-29T19:15:05 head[8], body[0] op[0x01]",
+    "timestamp": "2016-12-29T19:15:05-08:00",
+    "_body": "",
+    "_head": "0100180018000200",
+    "amount": 0.6,
+    "unabsorbed": 0.05,
+    "duration": 0,
+    "type": "normal",
+    "_date": "c50f337d10"
+  },
+  "timestamp": "2016-12-29T19:15:05-08:00",
+  "created_at": "2016-12-29T19:15:05-08:00",
+  "eventType": "Correction Bolus",
+  "insulin": 0.6,
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "enteredBy": "openaps://medtronic/723",
+  "carbs": null
+}
