@@ -1,47 +1,17 @@
 [
   {
-    "created_at": "2016-12-30T14:13:49.134Z", 
+    "created_at": "2016-12-30T14:20:01.212Z", 
     "mmtune": {
       "scanDetails": [
         [
-          "916.564", 
-          5, 
-          -81
-        ], 
-        [
           "916.588", 
           5, 
-          -74
-        ], 
-        [
-          "916.612", 
-          5, 
-          -73
-        ], 
-        [
-          "916.636", 
-          5, 
-          -73
-        ], 
-        [
-          "916.660", 
-          5, 
-          -73
-        ], 
-        [
-          "916.684", 
-          5, 
-          -74
-        ], 
-        [
-          "916.708", 
-          5, 
-          -80
+          -71
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.588, 
       "usedDefault": false, 
-      "timestamp": "2016-12-30T14:10:51.000Z"
+      "timestamp": "2016-12-30T14:17:05.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,41 +20,19 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-12-30T14:11:13.000Z", 
+        "timestamp": "2016-12-30T14:17:27.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 107.5, 
-      "clock": "2016-12-30T06:11:20-08:00"
+      "reservoir": 107.45, 
+      "clock": "2016-12-30T06:17:35-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 71, 
         "temp": "absolute", 
-        "snoozeBG": 85, 
-        "timestamp": "2016-12-30T14:12:59.000Z", 
-        "rate": 0.525, 
-        "reason": "COB: 0, Dev: -22, BGI: 0.85, ISF: 89, Target: 100; BG 71<75, delta 3>0; setting current basal of 0.525 as temp. Setting neutral temp basal of 0.525U/hr", 
-        "COB": 0, 
-        "eventualBG": 85, 
-        "duration": 30, 
-        "tick": "+3", 
-        "IOB": -0.409
-      }, 
-      "iob": {
-        "netbasalinsulin": -0.3, 
-        "timestamp": "2016-12-30T14:11:20.000Z", 
-        "activity": -0.0019, 
-        "basaliob": -0.409, 
-        "hightempinsulin": 0.3, 
-        "bolussnooze": 0, 
-        "iob": -0.409
-      }, 
-      "enacted": {
-        "bg": 71, 
-        "temp": "absolute", 
-        "snoozeBG": 85, 
-        "recieved": true, 
+        "snoozeBG": 83, 
+        "timestamp": "2016-12-30T14:19:35.000Z", 
         "predBGs": {
           "IOB": [
             71, 
@@ -95,33 +43,51 @@
             63, 
             63, 
             64, 
+            64, 
             65, 
-            66, 
+            67, 
             68, 
             70, 
             72, 
+            73, 
             75, 
-            77, 
+            76, 
+            78, 
             79, 
+            80, 
+            81, 
             82, 
+            83, 
+            83, 
             84, 
-            86, 
-            88, 
-            90, 
-            91, 
-            93, 
-            94, 
-            95, 
-            96, 
-            97, 
-            98, 
-            99, 
-            99, 
-            100, 
-            100, 
-            101
+            84, 
+            85, 
+            85, 
+            85, 
+            85, 
+            86
           ]
         }, 
+        "reason": "COB: 0, Dev: -23, BGI: 1.07, ISF: 89, Target: 100; BG 71<75, delta 3>0, temp 0.525 ~ req 0.525U/hr", 
+        "COB": 0, 
+        "eventualBG": 83, 
+        "tick": "+3", 
+        "IOB": -0.394
+      }, 
+      "iob": {
+        "netbasalinsulin": -0.3, 
+        "timestamp": "2016-12-30T14:17:35.000Z", 
+        "activity": -0.0024, 
+        "basaliob": -0.394, 
+        "hightempinsulin": 0.3, 
+        "bolussnooze": 0, 
+        "iob": -0.394
+      }, 
+      "enacted": {
+        "bg": 71, 
+        "temp": "absolute", 
+        "snoozeBG": 85, 
+        "recieved": true, 
         "reason": "COB: 0, Dev: -22, BGI: 0.85, ISF: 89, Target: 100; BG 71<75, delta 3>0; setting current basal of 0.525 as temp. Setting neutral temp basal of 0.525U/hr", 
         "rate": 0.525, 
         "COB": 0, 
@@ -134,9 +100,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4383
+      "batteryVoltage": 4370
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58666b9db21ed70d37a5cee0"
+    "_id": "58666d11b21ed70d37a5cee2"
   }
 ]
