@@ -3,155 +3,34 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.38
+      "voltage": 1.39
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-06T19:56:35.000Z", 
+      "timestamp": "2017-01-06T20:02:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 53.125, 
-    "clock": "2017-01-06T11:56:47-08:00"
+    "reservoir": 53.025, 
+    "clock": "2017-01-06T12:02:43-08:00"
   }, 
   "uploader": {
     "battery": 63, 
-    "batteryVoltage": 3808
+    "batteryVoltage": 3806
   }, 
   "openaps": {
     "suggested": {
-      "bg": 97, 
-      "temp": "absolute", 
-      "snoozeBG": 115, 
-      "timestamp": "2017-01-06T19:58:27.000Z", 
-      "predBGs": {
-        "COB": [
-          97, 
-          99, 
-          100, 
-          102, 
-          103, 
-          104, 
-          106, 
-          107, 
-          107, 
-          108, 
-          108, 
-          108, 
-          108, 
-          108, 
-          108, 
-          108, 
-          107, 
-          107, 
-          107, 
-          106, 
-          105, 
-          105, 
-          104, 
-          104, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          100, 
-          100, 
-          99, 
-          99, 
-          99, 
-          98
-        ], 
-        "aCOB": [
-          97, 
-          103, 
-          107, 
-          111, 
-          112, 
-          112, 
-          111, 
-          110, 
-          109, 
-          108, 
-          107, 
-          106, 
-          106, 
-          105, 
-          105, 
-          105, 
-          105, 
-          104, 
-          104, 
-          103, 
-          103, 
-          102, 
-          101, 
-          101, 
-          100, 
-          100, 
-          99, 
-          98, 
-          98, 
-          97, 
-          97, 
-          96, 
-          96, 
-          96, 
-          95
-        ], 
-        "IOB": [
-          97, 
-          99, 
-          100, 
-          102, 
-          103, 
-          104, 
-          105, 
-          105, 
-          106, 
-          106, 
-          106, 
-          106, 
-          105, 
-          105, 
-          104, 
-          104, 
-          104, 
-          103, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          100, 
-          99, 
-          99, 
-          98, 
-          98, 
-          97, 
-          96, 
-          96, 
-          96, 
-          95, 
-          95, 
-          95, 
-          94
-        ]
-      }, 
-      "reason": "COB: 5, Dev: 26, BGI: -2.4, ISF: 84, Target: 97; Eventual BG 115 >= 97, temp 1.05 >~ req 1.05U/hr", 
-      "COB": 5, 
-      "eventualBG": 115, 
-      "tick": "+2", 
-      "IOB": 0.094
+      "timestamp": "2017-01-06T20:04:15.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Jan 06 2017 11:53:38 GMT-0800 (PST) but your system time is Fri Jan 06 2017 12:04:15 GMT-0800 (PST)"
     }, 
     "iob": {
-      "netbasalinsulin": -0.35, 
-      "timestamp": "2017-01-06T19:56:47.000Z", 
-      "activity": 0.0057, 
-      "basaliob": -0.14, 
-      "hightempinsulin": 0.35, 
+      "netbasalinsulin": -0.25, 
+      "timestamp": "2017-01-06T20:02:43.000Z", 
+      "activity": 0.005, 
+      "basaliob": -0.082, 
+      "hightempinsulin": 0.4, 
       "bolussnooze": 0, 
-      "iob": 0.094
+      "iob": 0.114
     }, 
     "enacted": {
       "bg": 95, 
@@ -173,36 +52,36 @@
       [
         "916.564", 
         5, 
-        -55
+        -53
       ], 
       [
         "916.588", 
         5, 
-        -55
+        -50
       ], 
       [
         "916.612", 
         5, 
-        -53
+        -50
       ], 
       [
         "916.636", 
         5, 
-        -54
+        -50
       ], 
       [
         "916.660", 
         5, 
-        -54
+        -50
       ], 
       [
         "916.684", 
         5, 
-        -60
+        -53
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2017-01-06T19:56:14.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2017-01-06T20:02:10.000Z", 
     "usedDefault": false
   }
 }
