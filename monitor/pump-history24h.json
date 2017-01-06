@@ -1,5 +1,74 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-01-06T12:30:56 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-01-06T12:30:56", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "385e0c4611"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-01-06T12:30:56 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-01-06T12:30:56", 
+    "_body": "00", 
+    "_head": "331a", 
+    "rate": 0.65, 
+    "_date": "385e0c4611"
+  }, 
+  {
+    "programmed": 1.9, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-01-06T12:25:46 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-01-06T12:25:46", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.9, 
+            "age": 138
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 328
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c08248ac02848d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "01004c004c000600", 
+    "amount": 1.9, 
+    "unabsorbed": 0.15, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "2e592c0611"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 93, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2017-01-06T12:25:46 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-01-06T12:25:46", 
+    "_body": "285000c85a64fc0050f80006004cb4", 
+    "_head": "5b5d", 
+    "unabsorbed_insulin_total": 0.15, 
+    "correction_estimate": 51.1, 
+    "_date": "2e590c0611", 
+    "bolus_estimate": 1.9, 
+    "bg_target_low": 100, 
+    "carb_ratio": 20.0, 
+    "food_estimate": 2.0, 
+    "carb_input": 40, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "BGReceived", 
     "link": "c23647", 
     "_description": "BGReceived 2017-01-06T12:21:21 head[2], body[3] op[0x3f]", 
@@ -3572,24 +3641,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "3867094511"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-01-05T09:23:17 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-01-05T09:23:17", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "1157094511"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-01-05T09:23:17 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-01-05T09:23:17", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "1157094511"
   }
 ]
