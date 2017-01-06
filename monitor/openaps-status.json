@@ -7,30 +7,146 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-06T20:34:23.000Z", 
+      "timestamp": "2017-01-06T20:40:59.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 50.85, 
-    "clock": "2017-01-06T12:34:35-08:00"
+    "reservoir": 50.775, 
+    "clock": "2017-01-06T12:41:11-08:00"
   }, 
   "uploader": {
     "battery": 60, 
-    "batteryVoltage": 3779
+    "batteryVoltage": 3778
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-01-06T20:36:13.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Jan 06 2017 12:23:38 GMT-0800 (PST) but your system time is Fri Jan 06 2017 12:36:13 GMT-0800 (PST)"
+      "bg": 92, 
+      "temp": "absolute", 
+      "snoozeBG": 163, 
+      "timestamp": "2017-01-06T20:42:43.000Z", 
+      "predBGs": {
+        "COB": [
+          92, 
+          94, 
+          95, 
+          95, 
+          96, 
+          95, 
+          94, 
+          93, 
+          91, 
+          88, 
+          85, 
+          81, 
+          76, 
+          71, 
+          66, 
+          62, 
+          58, 
+          54, 
+          50, 
+          47, 
+          44, 
+          42, 
+          40, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          40, 
+          42, 
+          44, 
+          46, 
+          49, 
+          52, 
+          55, 
+          57, 
+          60, 
+          63, 
+          65, 
+          68, 
+          70
+        ], 
+        "aCOB": [
+          92, 
+          99, 
+          106, 
+          112, 
+          118, 
+          123, 
+          127, 
+          130, 
+          133, 
+          134, 
+          135, 
+          135, 
+          135, 
+          133, 
+          132, 
+          130, 
+          129, 
+          128, 
+          128, 
+          127, 
+          127, 
+          127, 
+          127, 
+          127, 
+          128, 
+          129, 
+          130, 
+          131, 
+          133, 
+          134, 
+          136, 
+          139, 
+          141, 
+          144, 
+          146, 
+          149, 
+          151, 
+          153, 
+          155, 
+          157, 
+          158, 
+          160, 
+          161
+        ], 
+        "IOB": [
+          92, 
+          93, 
+          94, 
+          94, 
+          93, 
+          91, 
+          88, 
+          85, 
+          80, 
+          75, 
+          69, 
+          61, 
+          53, 
+          44, 
+          39
+        ]
+      }, 
+      "reason": "COB: 39, Dev: 8, BGI: -2.35, ISF: 84, Target: 97; Eventual BG 70 < 97, bolus snooze: eventual BG range 70-163, temp 0.65 ~ req 0.65U/hr", 
+      "COB": 39, 
+      "eventualBG": 70, 
+      "tick": "+6", 
+      "IOB": 1.861
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2017-01-06T20:34:35.000Z", 
-      "activity": 0.0043, 
-      "basaliob": -0.036, 
+      "netbasalinsulin": 0.05, 
+      "timestamp": "2017-01-06T20:41:11.000Z", 
+      "activity": 0.0056, 
+      "basaliob": -0.026, 
       "hightempinsulin": 0.5, 
-      "bolussnooze": 1.844, 
-      "iob": 1.897
+      "bolussnooze": 1.744, 
+      "iob": 1.861
     }, 
     "enacted": {
       "bg": 93, 
@@ -52,41 +168,41 @@
       [
         "916.540", 
         5, 
-        -73
+        -59
       ], 
       [
         "916.564", 
         5, 
-        -61
+        -51
       ], 
       [
         "916.588", 
         5, 
-        -62
+        -50
       ], 
       [
         "916.612", 
         5, 
-        -58
+        -50
       ], 
       [
         "916.636", 
         5, 
-        -53
+        -50
       ], 
       [
         "916.660", 
         5, 
-        -54
+        -52
       ], 
       [
         "916.684", 
         5, 
-        -57
+        -55
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-01-06T20:34:02.000Z", 
+    "timestamp": "2017-01-06T20:40:38.000Z", 
     "usedDefault": false
   }
 }
