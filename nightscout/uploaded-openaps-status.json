@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2017-01-06T20:30:49.861Z", 
+    "created_at": "2017-01-06T20:36:29.358Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
           5, 
-          -77
+          -73
         ], 
         [
           "916.564", 
           5, 
-          -67
+          -61
         ], 
         [
           "916.588", 
           5, 
-          -65
+          -62
         ], 
         [
           "916.612", 
           5, 
-          -62
+          -58
         ], 
         [
           "916.636", 
           5, 
-          -59
+          -53
         ], 
         [
           "916.660", 
           5, 
-          -58
+          -54
         ], 
         [
           "916.684", 
           5, 
-          -60
+          -57
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2017-01-06T20:28:02.000Z"
+      "timestamp": "2017-01-06T20:34:02.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,153 +50,32 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-01-06T20:28:23.000Z", 
+        "timestamp": "2017-01-06T20:34:23.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 50.9, 
-      "clock": "2017-01-06T12:28:35-08:00"
+      "reservoir": 50.85, 
+      "clock": "2017-01-06T12:34:35-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 93, 
-        "temp": "absolute", 
-        "snoozeBG": 168, 
-        "timestamp": "2017-01-06T20:30:12.000Z", 
-        "rate": 0.65, 
-        "reason": "COB: 41, Dev: -5, BGI: -1.33, ISF: 83, Target: 97; Eventual BG 91 < 97, bolus snooze: eventual BG range 91-168; setting current basal of 0.65 as temp", 
-        "COB": 41, 
-        "eventualBG": 91, 
-        "duration": 30, 
-        "tick": -2, 
-        "IOB": 1.872
+        "timestamp": "2017-01-06T20:36:13.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Fri Jan 06 2017 12:23:38 GMT-0800 (PST) but your system time is Fri Jan 06 2017 12:36:13 GMT-0800 (PST)"
       }, 
       "iob": {
-        "netbasalinsulin": -0.05, 
-        "timestamp": "2017-01-06T20:28:35.000Z", 
-        "activity": 0.0032, 
-        "basaliob": -0.095, 
-        "hightempinsulin": 0.45, 
-        "bolussnooze": 1.892, 
-        "iob": 1.872
+        "netbasalinsulin": 0, 
+        "timestamp": "2017-01-06T20:34:35.000Z", 
+        "activity": 0.0043, 
+        "basaliob": -0.036, 
+        "hightempinsulin": 0.5, 
+        "bolussnooze": 1.844, 
+        "iob": 1.897
       }, 
       "enacted": {
         "bg": 93, 
         "temp": "absolute", 
         "snoozeBG": 168, 
         "recieved": true, 
-        "predBGs": {
-          "COB": [
-            93, 
-            96, 
-            98, 
-            100, 
-            101, 
-            102, 
-            103, 
-            103, 
-            103, 
-            102, 
-            101, 
-            100, 
-            97, 
-            94, 
-            91, 
-            87, 
-            83, 
-            79, 
-            76, 
-            73, 
-            70, 
-            68, 
-            66, 
-            64, 
-            63, 
-            62, 
-            62, 
-            61, 
-            61, 
-            62, 
-            63, 
-            64, 
-            65, 
-            67, 
-            69, 
-            72, 
-            75, 
-            77, 
-            80, 
-            83, 
-            86, 
-            88, 
-            91
-          ], 
-          "aCOB": [
-            93, 
-            101, 
-            109, 
-            117, 
-            123, 
-            130, 
-            135, 
-            140, 
-            145, 
-            149, 
-            152, 
-            154, 
-            156, 
-            157, 
-            157, 
-            156, 
-            156, 
-            155, 
-            155, 
-            154, 
-            154, 
-            154, 
-            155, 
-            155, 
-            156, 
-            156, 
-            157, 
-            158, 
-            160, 
-            161, 
-            163, 
-            164, 
-            166, 
-            169, 
-            171, 
-            173, 
-            176, 
-            178, 
-            181, 
-            183, 
-            184, 
-            186, 
-            187
-          ], 
-          "IOB": [
-            93, 
-            95, 
-            97, 
-            98, 
-            98, 
-            98, 
-            96, 
-            95, 
-            92, 
-            89, 
-            85, 
-            80, 
-            74, 
-            67, 
-            60, 
-            53, 
-            45, 
-            39
-          ]
-        }, 
         "reason": "COB: 41, Dev: -5, BGI: -1.33, ISF: 83, Target: 97; Eventual BG 91 < 97, bolus snooze: eventual BG range 91-168; setting current basal of 0.65 as temp", 
         "rate": 0.65, 
         "COB": 41, 
@@ -208,10 +87,10 @@
       }
     }, 
     "uploader": {
-      "battery": 61, 
-      "batteryVoltage": 3788
+      "battery": 60, 
+      "batteryVoltage": 3779
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "586ffe79de0545e3412e9aa5"
+    "_id": "586fffcdde0545e3412e9aa6"
   }
 ]
