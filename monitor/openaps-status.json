@@ -7,62 +7,82 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-07T10:41:31.000Z", 
+      "timestamp": "2017-01-07T10:49:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 127.975, 
-    "clock": "2017-01-07T02:41:39-08:00"
+    "clock": "2017-01-07T02:49:22-08:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4372
+    "batteryVoltage": 4380
   }, 
   "openaps": {
     "suggested": {
-      "bg": 55, 
+      "bg": 49, 
       "temp": "absolute", 
-      "snoozeBG": 28, 
-      "timestamp": "2017-01-07T10:43:27.000Z", 
-      "reason": "COB: 0, Dev: -60, BGI: -0.37, ISF: 82, Target: 96; BG 55<73", 
-      "rate": 0, 
+      "snoozeBG": 54, 
+      "timestamp": "2017-01-07T10:52:09.000Z", 
+      "predBGs": {
+        "IOB": [
+          49, 
+          43, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          39, 
+          40, 
+          42, 
+          45, 
+          48, 
+          50, 
+          52, 
+          54, 
+          56, 
+          58, 
+          59, 
+          60, 
+          61, 
+          62, 
+          63, 
+          64, 
+          65, 
+          65, 
+          66, 
+          66, 
+          67
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -36, BGI: 0.25, ISF: 83, Target: 97; BG 49<74, but 24m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 28, 
-      "duration": 30, 
-      "tick": -15, 
-      "IOB": -0.399
+      "eventualBG": 54, 
+      "tick": -7, 
+      "IOB": -0.496
     }, 
     "iob": {
-      "netbasalinsulin": 0.4, 
-      "timestamp": "2017-01-07T10:41:39.000Z", 
-      "activity": 0.0009, 
-      "basaliob": -0.399, 
-      "hightempinsulin": 1.2, 
+      "netbasalinsulin": 0.25, 
+      "timestamp": "2017-01-07T10:49:22.000Z", 
+      "activity": -0.0006, 
+      "basaliob": -0.496, 
+      "hightempinsulin": 1.15, 
       "bolussnooze": 0, 
-      "iob": -0.399
+      "iob": -0.496
     }, 
     "enacted": {
       "bg": 55, 
       "temp": "absolute", 
       "snoozeBG": 28, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          55, 
-          41, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39
-        ]
-      }, 
       "rate": 0, 
       "reason": "COB: 0, Dev: -60, BGI: -0.37, ISF: 82, Target: 96; BG 55<73", 
       "COB": 0, 
@@ -76,98 +96,38 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.300", 
+        "916.564", 
         5, 
-        -62
-      ], 
-      [
-        "916.324", 
-        5, 
-        -61
-      ], 
-      [
-        "916.348", 
-        5, 
-        -61
-      ], 
-      [
-        "916.372", 
-        4, 
-        -68
-      ], 
-      [
-        "916.396", 
-        5, 
-        -60
-      ], 
-      [
-        "916.420", 
-        5, 
-        -60
-      ], 
-      [
-        "916.444", 
-        3, 
-        -75
-      ], 
-      [
-        "916.468", 
-        3, 
-        -74
-      ], 
-      [
-        "916.492", 
-        3, 
-        -75
+        -91
       ], 
       [
         "916.588", 
         5, 
-        -47
+        -89
       ], 
       [
         "916.612", 
         5, 
-        -45
+        -88
       ], 
       [
         "916.636", 
         5, 
-        -44
+        -88
       ], 
       [
         "916.660", 
         5, 
-        -45
+        -89
       ], 
       [
         "916.684", 
         5, 
-        -45
-      ], 
-      [
-        "916.708", 
-        5, 
-        -48
-      ], 
-      [
-        "916.732", 
-        1, 
-        -92
-      ], 
-      [
-        "916.780", 
-        1, 
-        -91
-      ], 
-      [
-        "916.828", 
-        3, 
-        -76
+        -90
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-01-07T10:40:58.000Z", 
+    "timestamp": "2017-01-07T10:48:49.000Z", 
     "usedDefault": false
   }
 }
